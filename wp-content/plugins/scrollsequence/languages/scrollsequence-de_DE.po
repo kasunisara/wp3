@@ -1,0 +1,1073 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scrollsequence\n"
+"POT-Creation-Date: 2021-07-26 20:54+0200\n"
+"PO-Revision-Date: 2021-08-05 09:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: scrollsequence.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-scrollsequence-admin.php:216
+msgid "Left"
+msgstr "Links"
+
+#: admin/class-scrollsequence-admin.php:217
+msgid "Right"
+msgstr "Rechts"
+
+#: admin/class-scrollsequence-admin.php:222
+msgid "Top"
+msgstr "Oben"
+
+#: admin/class-scrollsequence-admin.php:223
+msgid "Bottom"
+msgstr "Unten"
+
+#: admin/class-scrollsequence-admin.php:255
+#: admin/class-scrollsequence-admin.php:256
+#: admin/class-scrollsequence-admin.php:540
+#: admin/class-scrollsequence-admin.php:556
+#: admin/class-scrollsequence-admin.php:557
+#: admin/class-scrollsequence-admin.php:702
+msgid "Scene"
+msgstr "Scene"
+
+#: admin/class-scrollsequence-admin.php:256
+#: admin/class-scrollsequence-admin.php:557
+msgid "Scenes"
+msgstr "Szenen"
+
+#: admin/class-scrollsequence-admin.php:261
+#: admin/class-scrollsequence-admin.php:562
+msgid "Fixed Content"
+msgstr "Fixierte Inhalt"
+
+#: admin/class-scrollsequence-admin.php:263
+#: admin/class-scrollsequence-admin.php:564
+msgid "Another day on Earth"
+msgstr "Ein weiterer Tag auf der Erde"
+
+#: admin/class-scrollsequence-admin.php:264
+#: admin/class-scrollsequence-admin.php:565
+msgid "Image Sequence"
+msgstr "Bildsequenz"
+
+#: admin/class-scrollsequence-admin.php:269
+#: admin/class-scrollsequence-admin.php:570
+msgid "Fixed Content Animation"
+msgstr "Fixierte Inhaltsanimation"
+
+#: admin/class-scrollsequence-admin.php:273
+#: admin/class-scrollsequence-admin.php:574
+msgid "Animations"
+msgstr "Animationen"
+
+#: admin/class-scrollsequence-admin.php:274
+#: admin/class-scrollsequence-admin.php:431
+#: admin/class-scrollsequence-admin.php:575
+#: admin/class-scrollsequence-admin.php:598
+msgid "Animation"
+msgstr "Animation"
+
+#: admin/class-scrollsequence-admin.php:276
+#: admin/class-scrollsequence-admin.php:577
+#: admin/partials/scrollsequence-admin-display-get-started.php:105
+msgid "Selector"
+msgstr "Selektor"
+
+#: admin/class-scrollsequence-admin.php:278
+#: admin/class-scrollsequence-admin.php:579
+msgid "Enter #id or .class selector"
+msgstr "Selektor #id oder .class eingeben"
+
+#: admin/class-scrollsequence-admin.php:279
+#: admin/class-scrollsequence-admin.php:580
+#: admin/partials/scrollsequence-admin-display-get-started.php:141
+msgid "Start"
+msgstr "Start"
+
+#: admin/class-scrollsequence-admin.php:281
+#: admin/class-scrollsequence-admin.php:582
+msgid "Enter image number where element becomes visible"
+msgstr "Bildnummer eingeben, bei der das Element sichtbar wird"
+
+#: admin/class-scrollsequence-admin.php:285
+#: admin/class-scrollsequence-admin.php:586
+#: admin/partials/scrollsequence-admin-display-get-started.php:141
+msgid "End"
+msgstr "Ende"
+
+#: admin/class-scrollsequence-admin.php:287
+#: admin/class-scrollsequence-admin.php:588
+msgid "Enter image number where element is hidden"
+msgstr "Bildnummer eingeben, bei der das Element ausgeblendet wird"
+
+#: admin/class-scrollsequence-admin.php:298
+msgid "From Animation "
+msgstr "Von Animation "
+
+#: admin/class-scrollsequence-admin.php:300
+#: admin/class-scrollsequence-admin.php:369
+msgid "Animation List"
+msgstr "Animation Liste"
+
+#: admin/class-scrollsequence-admin.php:303
+#: admin/class-scrollsequence-admin.php:304
+msgid "From Animation"
+msgstr "Von Animation"
+
+#: admin/class-scrollsequence-admin.php:306
+msgid "Fade From Opacity"
+msgstr "Ausblenden von Opazität"
+
+#: admin/class-scrollsequence-admin.php:307
+#: admin/class-scrollsequence-admin.php:317
+#: admin/class-scrollsequence-admin.php:327
+#: admin/class-scrollsequence-admin.php:337
+#: admin/class-scrollsequence-admin.php:376
+#: admin/class-scrollsequence-admin.php:386
+#: admin/class-scrollsequence-admin.php:396
+#: admin/class-scrollsequence-admin.php:406
+msgid "Value"
+msgstr "Wert"
+
+#: admin/class-scrollsequence-admin.php:316
+msgid "Move From Horizontal Offset"
+msgstr "Verschieben vom horizontalen Offset"
+
+#: admin/class-scrollsequence-admin.php:326
+msgid "Move From Vertical Offset"
+msgstr "Verschieben von vertikalem Versatz"
+
+#: admin/class-scrollsequence-admin.php:336
+msgid "Scale From"
+msgstr "Skala von"
+
+#: admin/class-scrollsequence-admin.php:346
+#: admin/class-scrollsequence-admin.php:415
+msgid "Duration"
+msgstr "Dauer"
+
+#: admin/class-scrollsequence-admin.php:367
+msgid "To Animation "
+msgstr "Zur Animation "
+
+#: admin/class-scrollsequence-admin.php:372
+#: admin/class-scrollsequence-admin.php:373
+msgid "To Animation"
+msgstr "Zur Animation"
+
+#: admin/class-scrollsequence-admin.php:375
+msgid "Fade To Opacity"
+msgstr "Auf Deckkraft verblassen"
+
+#: admin/class-scrollsequence-admin.php:385
+msgid "Move To Horizontal Offset"
+msgstr "Horizontalversatz anfahren"
+
+#: admin/class-scrollsequence-admin.php:395
+msgid "Move To Vertical Offset"
+msgstr "Auf vertikalen Versatz fahren"
+
+#: admin/class-scrollsequence-admin.php:405
+msgid "Scale To"
+msgstr "Skala bis"
+
+#: admin/class-scrollsequence-admin.php:456
+#: admin/class-scrollsequence-admin.php:615
+msgid "Image Duration (px)"
+msgstr "Bilddauer (px)"
+
+#: admin/class-scrollsequence-admin.php:464
+#: admin/class-scrollsequence-admin.php:623
+msgid "This sets how far the images are apart."
+msgstr "Hier wird eingestellt, wie weit die Bilder voneinander entfernt sind."
+
+#: admin/class-scrollsequence-admin.php:468
+#: admin/class-scrollsequence-admin.php:627
+msgid "Image Scale and Alignment"
+msgstr "Bildskalierung und -ausrichtung"
+
+#: admin/class-scrollsequence-admin.php:469
+#: admin/class-scrollsequence-admin.php:628
+msgid "Portrait (Mobile)"
+msgstr "Porträt (Mobil)"
+
+#: admin/class-scrollsequence-admin.php:474
+#: admin/class-scrollsequence-admin.php:510
+#: admin/class-scrollsequence-admin.php:633
+#: admin/class-scrollsequence-admin.php:669
+msgid "Scale to fill"
+msgstr "Skalieren zum Füllen"
+
+#: admin/class-scrollsequence-admin.php:475
+#: admin/class-scrollsequence-admin.php:476
+#: admin/class-scrollsequence-admin.php:477
+#: admin/class-scrollsequence-admin.php:478
+#: admin/class-scrollsequence-admin.php:479
+#: admin/class-scrollsequence-admin.php:480
+#: admin/class-scrollsequence-admin.php:481
+#: admin/class-scrollsequence-admin.php:482
+#: admin/class-scrollsequence-admin.php:511
+#: admin/class-scrollsequence-admin.php:512
+#: admin/class-scrollsequence-admin.php:513
+#: admin/class-scrollsequence-admin.php:514
+#: admin/class-scrollsequence-admin.php:515
+#: admin/class-scrollsequence-admin.php:516
+#: admin/class-scrollsequence-admin.php:517
+#: admin/class-scrollsequence-admin.php:518
+#: admin/class-scrollsequence-admin.php:634
+#: admin/class-scrollsequence-admin.php:639
+#: admin/class-scrollsequence-admin.php:670
+#: admin/class-scrollsequence-admin.php:675
+msgid "Scale to fit"
+msgstr "Passend skalieren"
+
+#: admin/class-scrollsequence-admin.php:484
+#: admin/class-scrollsequence-admin.php:520
+#: admin/class-scrollsequence-admin.php:643
+#: admin/class-scrollsequence-admin.php:679
+msgid "Horizontal Align"
+msgstr "Horizontale Ausrichtung"
+
+#: admin/class-scrollsequence-admin.php:494
+#: admin/class-scrollsequence-admin.php:530
+#: admin/class-scrollsequence-admin.php:653
+#: admin/class-scrollsequence-admin.php:689
+msgid "Vertical Align"
+msgstr "Vertikale Ausrichtung"
+
+#: admin/class-scrollsequence-admin.php:505
+#: admin/class-scrollsequence-admin.php:664
+msgid "Landscape (Desktop)"
+msgstr "Querformat (Desktop)"
+
+#: admin/class-scrollsequence-admin.php:593
+msgid "Animation Settings Not Available in Free Version"
+msgstr "Animationseinstellungen in der kostenlosen Version nicht verfügbar"
+
+#: admin/class-scrollsequence-admin.php:715
+#: admin/class-scrollsequence-admin.php:750
+msgid "Scroll Delay"
+msgstr "Scroll-Verzögerung"
+
+#: admin/class-scrollsequence-admin.php:716
+msgid "How long it takes the animation to catch up after scroll is finished."
+msgstr ""
+"Wie lange die Animation braucht, um nach Beendigung des Scrollens aufzuholen."
+
+#: admin/class-scrollsequence-admin.php:727
+msgid "Visual Markers"
+msgstr "Visuelle Marker"
+
+#: admin/class-scrollsequence-admin.php:728
+#: admin/class-scrollsequence-admin.php:758
+msgid "General Debug"
+msgstr "Allgemeine Fehlersuche"
+
+#: admin/class-scrollsequence-admin.php:729
+#: admin/class-scrollsequence-admin.php:759
+msgid "Image Preload Debug"
+msgstr "Bildvorlade-Debug"
+
+#: admin/class-scrollsequence-admin.php:754
+msgid "Scroll Delay Settings available only in"
+msgstr "Scroll-Verzögerung Einstellungen nur verfügbar in"
+
+#: admin/class-scrollsequence-admin.php:773
+msgid "Image Width"
+msgstr "Bildbreite"
+
+#: admin/class-scrollsequence-admin.php:775
+msgid "Content Width (default)"
+msgstr "Inhaltsbreite (Standard)"
+
+#: admin/class-scrollsequence-admin.php:776
+msgid "Force Full Width"
+msgstr "Volle Breite Erzwingen"
+
+#: admin/class-scrollsequence-admin.php:778
+msgid ""
+"Select \"Force Full Width\" to overrride your templates default width. If "
+"the setting does not work, use full width template included in your Theme."
+msgstr ""
+"Wählen Sie \"Volle Breite erzwingen\", um die Standardbreite Ihrer Vorlagen "
+"zu überschreiben. Wenn die Einstellung nicht funktioniert, verwenden Sie die "
+"in Ihrem Theme enthaltene Vorlage mit voller Breite."
+
+#: admin/class-scrollsequence-admin.php:780
+msgid "Image Opacity"
+msgstr "Bild Transparenz"
+
+#: admin/class-scrollsequence-admin.php:803
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: admin/class-scrollsequence-admin.php:813
+msgid "Enter custom CSS here."
+msgstr "Gib benutzerdefiniertes CSS hier ein."
+
+#: admin/class-scrollsequence-admin.php:814
+msgid "Show Development Information"
+msgstr "Informationen zur Entwicklung anzeigen"
+
+#: admin/class-scrollsequence-admin.php:827
+msgid "Body Background Color"
+msgstr "Body Hintergrundfarbe"
+
+#: admin/class-scrollsequence-admin.php:828
+msgid ""
+"Set CSS attribute <i><strong>background-color</strong></i> of "
+"<i><strong>body.single-scrollsequence</strong></i> class."
+msgstr ""
+"CSS-Attribut setzen <i><strong>hintergrund-Farbe</strong></i> von "
+"<i><strong>body.single-scrollsequenz</strong></i> klasse."
+
+#: admin/class-scrollsequence-admin.php:833
+msgid "Show Sidebar"
+msgstr "Seitenleiste anzeigen"
+
+#: admin/class-scrollsequence-admin.php:835
+msgid "Experimental, take care"
+msgstr "Experimentell, mit Vorsicht zu genießen"
+
+#: admin/class-scrollsequence-admin.php:837
+msgid "Show Footer"
+msgstr "Fußzeile anzeigen"
+
+#: admin/class-scrollsequence-admin.php:839
+msgid ""
+"Experimental, take care. <br>(This setting displays footer element and  "
+"changes z-index to 9999)"
+msgstr ""
+"Experimentell, Vorsicht. <br>(Diese Einstellung zeigt das Fußzeilenelement "
+"an und ändert den z-Index auf 9999)</br>"
+
+#: admin/class-scrollsequence-admin.php:869
+msgid ""
+"Warning: Image limit reached. For performance reasons, free version allows "
+"maximum of 100 images on a single page. Images marked with \"X\" will not be "
+"displayed."
+msgstr ""
+"Warnung: Bildlimit erreicht. Aus Performancegründen sind in der kostenlosen "
+"Version maximal 100 Bilder auf einer Seite möglich. Bilder, die mit \"X\" "
+"markiert sind, werden nicht angezeigt."
+
+#: admin/class-scrollsequence-admin.php:869
+msgid "Upgrade to display unlimited images in your Scrollsequence"
+msgstr "Upgrade zur Anzeige unbegrenzter Bilder in Ihrer Scrollsequenz"
+
+#: admin/class-scrollsequence-admin.php:871
+msgid ""
+"Warning: Scene limit reached. For performance reasons, free version allows "
+"maximum of 3 scenes."
+msgstr ""
+"Warnung: Szenenlimit erreicht. Aus Performance-Gründen sind in der "
+"kostenlosen Version maximal 3 Szenen möglich."
+
+#: admin/class-scrollsequence-admin.php:871
+msgid "Upgrade to display unlimited scenes in your Scrollsequence"
+msgstr "Upgrade zur Anzeige unbegrenzter Bilder in Ihrer Scrollsequenz"
+
+#: admin/class-scrollsequence-admin.php:900
+msgid ""
+"<h1>Content Editor </h1>\n"
+"\t\t\t\t<p><strong>Place shortcode <i>[scrollsequence]</i> anywhere in the "
+"classic content to control image sequence position.<br> If not specified "
+"<i>[scrollsequence]</i> shortcode will be placed at the start of content "
+"automatically, rendering the image sequence at the begining of the page. </"
+"strong></p>"
+msgstr ""
+"<h1>Inhalt-Editor </h1>\n"
+"\t\t\t\t<p><strong>Platzieren Sie den Shortcode <i>[scrollsequence]</i> an "
+"einer beliebigen Stelle im klassischen Inhalt, um die Position der "
+"Bildsequenz zu steuern.<br>Wenn der Shortcode <i>[scrollsequence]</i> nicht "
+"angegeben wird, wird er automatisch am Anfang des Inhalts platziert, wodurch "
+"die Bildsequenz am Anfang der Seite angezeigt wird</br> </strong></p>"
+
+#: admin/class-scrollsequence-admin.php:1129
+msgid ""
+"For performance reasons only one shortcode is allowed in Scrollsequence FREE."
+msgstr ""
+"Aus Performance-Gründen ist nur ein Shortcode in Scrollsequence FREE erlaubt."
+
+#: admin/class-scrollsequence-admin.php:1129
+msgid "Upgrade to PRO version for unlimited shortcodes."
+msgstr "Upgrade auf die PRO-Version für unbegrenzte Shortcodes."
+
+#: admin/class-scrollsequence-admin.php:1152
+msgid "Title"
+msgstr "Titel"
+
+#: admin/class-scrollsequence-admin.php:1153
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-scrollsequence-admin.php:1154
+msgid "Date"
+msgstr "Datum"
+
+#: admin/class-scrollsequence-admin.php:1155
+msgid "Author"
+msgstr "Autor"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:17
+msgid "For limited time only we offer a trial period of PRO version."
+msgstr ""
+"Nur für eine begrenzte Zeit bieten wir eine Probeversion der PRO-Version an."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:19
+msgid "No credit card, no risk. Grab your trial while they last!"
+msgstr ""
+"Keine Kreditkarte, kein Risiko. Sichern Sie sich Ihre Probeversion, solange "
+"sie verfügbar ist!"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:22
+msgid "14 DAYS FREE TRIAL"
+msgstr "14 TAGE KOSTENLOS TESTEN"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:40
+msgid "Getting Started is easy, watch the steps below."
+msgstr "Der Einstieg ist einfach, sehen Sie sich die folgenden Schritte an."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:45
+msgid "Getting Started Video"
+msgstr "Erste Schritte Video"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:53
+msgid "Create a new Scene"
+msgstr "Eine neue Szene erstellen"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:55
+msgid ""
+"Click on <i><strong>(1) Add New Scrollsequence</strong></i>, set a "
+"<i><strong>(2) title</strong></i> name and  <i><strong>(3) Add Scene</"
+"strong></i>."
+msgstr ""
+"Klicken Sie auf <i><strong>(1) Neue Scrollsequenz hinzufügen</strong></i>, "
+"legen Sie einen <i><strong>(2) Titel</strong></i> namen und  <i><strong>(3) "
+"Szene hinzufügen</strong></i>."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:62
+msgid "Select Images"
+msgstr "Bilder auswählen"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:64
+msgid ""
+"Click on <i><strong>(4) Select Images</strong></i> (5) confirm selection "
+"that you want to use. Hold down CTRL or SHIFT for multiple selection.<br> "
+"Take care about the order you select your images. After you made and "
+"confirmed your selection, you can easily drag and drop to reorder."
+msgstr ""
+"Klicken Sie auf <i><strong>(4) Bilder auswählen</strong></i> (5) Bestätigen "
+"Sie die Auswahl, die Sie verwenden möchten. Halten Sie die STRG- oder "
+"UMSCHALT-Taste für eine Mehrfachauswahl gedrückt.<br>Achten Sie auf die "
+"Reihenfolge, in der Sie Ihre Bilder auswählen. Nachdem Sie Ihre Auswahl "
+"getroffen und bestätigt haben, können Sie die Reihenfolge einfach per Drag "
+"&amp; Drop ändern."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:66
+msgid ""
+"If you do not have your own images available, you can use one of our "
+"<b>Image Packs</b>"
+msgstr ""
+"Wenn Sie keine eigenen Bilder zur Verfügung haben, können Sie eines unserer "
+"<b>Bilder Packs</b>verwenden"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:77
+msgid "Create Scene Content"
+msgstr "Szeneninhalt erstellen"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:79
+msgid ""
+"Standard TinyMCE editor is being used for writing the content. TinyMCE is "
+"the most advanced editor on the market. Supports shortcodes, oEmbed and many "
+"other features."
+msgstr ""
+"Zum Schreiben des Inhalts wird der Standard-Editor TinyMCE verwendet. "
+"TinyMCE ist der fortschrittlichste Editor auf dem Markt. Unterstützt "
+"Shortcodes, oEmbed und viele andere Funktionen."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:81
+msgid ""
+"HTML content is made up of elements. Each element can have one unique <b>ID</"
+"b> and multiple <b>class</b>es."
+msgstr ""
+"HTML-Inhalte sind aus Elementen aufgebaut. Jedes Element kann eine "
+"eindeutige <b>ID</b> und mehrere <b>class</b>en haben."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:85
+msgid ""
+"<b>Class</b>es and <b>ID</b>s are used as selectors for on scroll animation, "
+"details are described in paragraphs below."
+msgstr ""
+"<b>Klassen</b> und <b>IDs</b> werden als Selektoren für die On-Scroll-"
+"Animation verwendet, Details sind in den folgenden Abschnitten beschrieben."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:90
+msgid "Animate"
+msgstr "Animieren"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:92
+msgid ""
+"Click on <i><strong>(6) Add Animation</strong></i>.The most basic is In/Out "
+"Animation.<br>Three basic parameters are required for each animated element. "
+"You can add more element animations with the little plus sign. "
+msgstr ""
+"Klicken Sie auf <i><strong>(6) Animation hinzufügen</strong>.</i> Die "
+"grundlegendste ist die In/Out-Animation.<br>Für jedes animierte Element "
+"werden drei grundlegende Parameter benötigt. Sie können weitere "
+"Elementanimationen mit dem kleinen Pluszeichen hinzufügen "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:96
+msgid "Selector example use"
+msgstr "Selektor Beispiel Verwendung"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:106
+#: admin/partials/scrollsequence-admin-display-get-started.php:143
+msgid "Description"
+msgstr "Beschreibung"
+
+#. translators: 1: Note
+#: admin/partials/scrollsequence-admin-display-get-started.php:116
+#, php-format
+msgid ""
+"Select a HTML element with id=\"%1$s\". IDs should be unique. This means "
+"that only one HTML element can have the same id."
+msgstr ""
+"Wählen Sie ein HTML-Element mit id=\"%1$s\". IDs sollten eindeutig sein. Das "
+"bedeutet, dass nur ein HTML-Element die gleiche id haben kann."
+
+#. translators: 1: Note
+#: admin/partials/scrollsequence-admin-display-get-started.php:128
+#, php-format
+msgid ""
+"Select each HTML element with class=\"%1$s\". Multiple elements can have "
+"same class attribute."
+msgstr ""
+"Wählen Sie jedes HTML-Element mit class=\"%1$s\". Mehrere Elemente können "
+"dasselbe class-Attribut haben."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:136
+msgid "Start and End example use"
+msgstr "Start und Ende der Beispielanwendung"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:152
+msgid ""
+"Element is visible when page is loaded. Once user starts scrolling down, "
+"element is hidden once user reaches the fiteenth image."
+msgstr ""
+"Das Element ist sichtbar, wenn die Seite geladen wird. Sobald Sie mit dem "
+"Scrollen nach unten beginnt, wird das Element ausgeblendet, sobald Sie das "
+"fünfzehnte Bild erreicht."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:162
+msgid ""
+"Element is hidden when page is loaded. Once user starts scrolling down, "
+"element is displayed from 5th to 30th image in the sequence. "
+msgstr ""
+"Das Element ist ausgeblendet, wenn die Seite geladen wird. Sobald der "
+"Benutzer mit dem Scrollen nach unten beginnt, wird das Element vom 5. bis "
+"zum 30 "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:179
+msgid "Full Tutorial Video"
+msgstr "Vollständiges Tutorial-Video"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:190
+msgid "Tips and Tricks"
+msgstr "Tipps und Tricks"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:195
+msgid "Basic Use"
+msgstr "Grundlegende Verwendung"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:199
+msgid ""
+"Add another Scene to the sequence. Each Scene contains image sequence, "
+"content and setting like duration, alignment and scale. Scenes can be re-"
+"ordered by drag and drop. If you wish you can make a copy of a similar Scene."
+msgstr ""
+"Fügen Sie eine weitere Szene zu der Sequenz hinzu. Jede Szene enthält "
+"Bildsequenz, Inhalt und Einstellungen wie Dauer, Ausrichtung und Skalierung. "
+"Szenen können durch Ziehen und Ablegen neu geordnet werden. Wenn Sie "
+"möchten, können Sie eine Kopie einer ähnlichen Szene erstellen."
+
+#. translators: 1: %1$s:[scrollsequence] %2$s:[scrollsequence id="####" margintop="-200px"]
+#: admin/partials/scrollsequence-admin-display-get-started.php:204
+#, php-format
+msgid ""
+"Add %1$s shortcode to control position of the image animation in the "
+"content. Margintop, marginbottom shortcode options give you control of the "
+"margins. Use negative margin to overlap with classic content before or after "
+"the animation. Example %2$s."
+msgstr ""
+"Fügen Sie den Shortcode %1$s hinzu, um die Position der Bildanimation im "
+"Inhalt zu steuern. Die Shortcode-Optionen marginintop, marginbottom geben "
+"Ihnen die Kontrolle über die margin. Verwenden Sie einen negativen margin, "
+"um den klassischen Inhalt vor oder nach der Animation zu überlappen. "
+"Beispiel %2$s."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:216
+msgid "Advanced Use"
+msgstr "Erweiterte Verwendung"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:220
+msgid ""
+"Custom CSS is a great way how to add a magic touch to your design. Simply "
+"write or paste CSS code."
+msgstr ""
+"Benutzerdefiniertes CSS ist eine großartige Möglichkeit, wie Sie Ihrem "
+"Design einen magischen Touch verleihen können. Schreiben oder fügen Sie "
+"einfach CSS-Code ein."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:224
+#, php-format
+msgid ""
+"Read our <a href=\"%1$s\" target=\"_blank\">documentation</a>, learn the "
+"basics, have a look at some examples and get inspiration for your project. "
+msgstr ""
+"Lesen Sie unsere <a href=\"%1$s\" target=\"_blank\">Dokumentation</a>, "
+"lernen Sie die Grundlagen, schauen Sie sich einige Beispiele an und holen "
+"Sie sich Inspiration für Ihr Projekt "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:229
+msgid ""
+"Debug mode gives you information when you fall into trouble. If you stumble "
+"upon an issue, don not hesitate and "
+msgstr ""
+"Der Debug-Modus gibt Sie Informationen, wenn Sie auf Probleme stoßen. Wenn "
+"Sie über ein Problem stolpern, zögern Sie nicht und "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:231
+msgid "contact us"
+msgstr "Kontaktieren Sie uns"
+
+#: admin/partials/scrollsequence-admin-display-options.php:8
+msgid "Image Preload Percentage"
+msgstr "Prozentsatz der Bildvorladung"
+
+#: admin/partials/scrollsequence-admin-display-options.php:11
+msgid ""
+"Display animation after percentage of images are finished preloading. "
+"Default 12%"
+msgstr ""
+"Animation anzeigen, nachdem der Prozentsatz der Bilder mit dem Vorladen "
+"fertig ist. Standardwert 12 %"
+
+#: admin/partials/scrollsequence-admin-display-options.php:28
+msgid "Elementor Widget (Experimental)"
+msgstr "Elementor-Widget (experimentell)"
+
+#: admin/partials/scrollsequence-admin-display-options.php:31
+msgid ""
+"Turn Experimental Elementor Widget on or off. <b>Warning: You may loose your "
+"work after updating</b>."
+msgstr ""
+"Schalten Sie das experimentelle Elementor-Widget ein oder aus. <b>Warnung: "
+"Sie können Ihre Arbeit nach der Aktualisierung verlieren</b>."
+
+#: admin/partials/scrollsequence-admin-display.php:74
+msgid ""
+"You are working with Beta version. Use with caution. Backup your work before "
+"updating."
+msgstr ""
+"Sie arbeiten mit einer Beta-Version. Verwenden Sie diese mit Vorsicht. "
+"Sichern Sie Ihre Arbeit, bevor Sie aktualisieren."
+
+#: admin/partials/scrollsequence-admin-display.php:105
+msgid "Get Started"
+msgstr "Jetzt loslegen"
+
+#: admin/partials/scrollsequence-admin-display.php:109
+msgid "Options"
+msgstr "Optionen"
+
+#: admin/partials/scrollsequence-admin-display.php:118
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: admin/partials/scrollsequence-admin-display.php:124
+msgid "Examples"
+msgstr "Beispiele"
+
+#: admin/partials/scrollsequence-admin-display.php:128
+msgid "Docs"
+msgstr "Dokumentation"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:287
+msgid "The parent must be 'array', 'string' or 'null'."
+msgstr "Das übergeordnete Element muss 'array', 'string' oder 'null' sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:316
+msgid "The position of inner blocks must be 'above' or 'below'."
+msgstr "Die Position der inneren Blöcke muss \"above\" oder \"below\" sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:334
+msgid "The template must be an 'array' or 'null'."
+msgstr "Das Template  muss ein 'Array' oder 'Null' sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:352
+msgid "The template lock must be 'all', 'insert', 'false' or 'null'."
+msgstr ""
+"Die Template-Sperre muss \"all\", \"insert\", \"false\" oder \"null\" sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:370
+msgid "The allowed blocks must be an 'array' or 'null'."
+msgstr "Die erlaubten Blöcke müssen ein 'Array' oder 'null' sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:437
+msgid "'render_callback' is required for the blocks."
+msgstr "Für die Blocks wird 'render_callback' benötigt."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:441
+msgid "'render_callback' must be a callable."
+msgstr "\"render_callback\" muss ein Aufruf sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Container.php:727
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+"Wenn Sie Skripte in ihre Fußzeile hinzufügen möchten (z.B. Google Analytics "
+"Tracking Code), sollten Sie sie in diese Box einfügen."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
+msgid "No form"
+msgstr "Kein Formular"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr ""
+"Wenn Sie Skripte in den Kopfbereich hinzufügen möchten, sollten Sie sie hier "
+"einfügen."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Sidebar_Field.php:74
+msgctxt "sidebar"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
+msgid "Please enter a name for the sidebar."
+msgstr "Bitte gib einen Namen für die neue Seitenleiste an."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
+msgid "Unknown action attempted."
+msgstr "Es wurde versucht einen unbekannte Aktion auszuführen."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
+msgid "Sidebar with the same ID is already registered."
+msgstr "Seitenleiste mit der gleichen ID is bereits registriert."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
+msgid ""
+"Failed to update option storing your custom sidebars. Please contact support."
+msgstr ""
+"Fehler beim Aktualisieren Ihrer benutzerdefinierten Sidebars. Kontaktieren "
+"Sie bitte den Support."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
+msgid "Sidebar not found."
+msgstr "Seitenleiste wurde nicht gefunden."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
+msgid "Add Sidebar"
+msgstr "Seitenleiste hinzufügen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:110
+msgid "Please enter the name of the new sidebar:"
+msgstr "Bitte geben Sie einen Namen für die neue Seitenleiste ein:"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr "Möchen Sie diese Seitenleiste wirklich entfernen?"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:398
+msgid "No option names provided"
+msgstr "Keine Optionsnamen verfügbar"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:409
+msgid "Theme Options updated."
+msgstr "Theme-Optionen aktualisiert."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:431
+msgid "Sorry, you are not allowed to read blocks of this post."
+msgstr "Es tut uns leid, du darfst keine Blöcke dieses Beitrags lesen."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:441
+msgid "Sorry, you are not allowed to read blocks as this user."
+msgstr "Sorry, Sie dürfen als dieser Benutzer keine Blöcke lesen."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:462
+msgid "The requested type: ID or URL."
+msgstr "Der angeforderte Typ: ID oder URL."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:467
+msgid "The ID / URL of the attachment"
+msgstr "Die ID / URL des Anhangs"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:484
+msgid "The name of the block."
+msgstr "Der Name des Blocks."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:489
+msgid "The content of the block."
+msgstr "Der Inhalt des Blocks."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:493
+msgid "ID of the post context."
+msgstr "ID des Postkontextes."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:524
+msgid "Invalid block."
+msgstr "Ungültiger Block."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:214
+msgid "Show preview"
+msgstr "Vorschau anzeigen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:215
+msgid "Hide preview"
+msgstr "Vorschau ausblenden"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:286
+msgid "Fields"
+msgstr "Felder"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/not-supported-field/index.js:14
+#, javascript-format
+msgid "Field of type '%s' is not supported in Gutenberg."
+msgstr "Feld vom Typ '%s' wird in Gutenberg nicht unterstützt."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/server-side-render/index.js:129
+#, javascript-format
+msgid "Error loading block: %s"
+msgstr "Fehler beim Laden des Blocks: %s"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/server-side-render/index.js:135
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/datetime/index.js:59
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/date/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/datetime/index.js:9
+msgid "Select Date"
+msgstr "Datum auswählen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:17
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:10
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:12
+msgid "Select File"
+msgstr "Datei auswählen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:16
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:11
+msgid "Use File"
+msgstr "Datei verwenden"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:10
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:12
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:10
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:12
+msgid "Select Image"
+msgstr "Bild auswählen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:11
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:11
+msgid "Use Image"
+msgstr "Bild verwenden"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:17
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:17
+msgid "Select Attachments"
+msgstr "Anhänge auswählen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:16
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:16
+msgid "Use Attachments"
+msgstr "Anlagen verwenden"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/components/no-options/index.js:14
+msgid "No options."
+msgstr "Keine Optionen."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/components/search-input/index.js:30
+msgid "Search..."
+msgstr "Suche..."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/association/index.js:169
+#, javascript-format
+msgid "Maximum number of items reached (%s items)"
+msgstr "Maximale Anzahl von Elementen erreicht (%s Einträge)."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/association/index.js:267
+#, javascript-format
+msgid "Showing %1$d of %2$d results"
+msgstr "%1$d von %2$d Ergebnissen angezeigt"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/color/index.js:92
+msgid "Select a color"
+msgstr "Farbe auswählen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/complex/index.js:82
+#, javascript-format
+msgid "Add %s"
+msgstr "%s hinzufügen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/complex/index.js:146
+#, javascript-format
+msgid "Couldn't create the label of group - %s"
+msgstr "Konnte das Label der Gruppe nicht erstellen - %s"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/complex/index.js:344
+msgid "There are no entries yet."
+msgstr "Es sind noch keine Einträge vorhanden."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/map/index.js:167
+msgid "Geocode was not successful for the following reason: "
+msgstr "Der Geocode war aus folgenden Gründen nicht erfolgreich: "
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/oembed/index.js:188
+msgid "An error occurred while trying to fetch oembed preview."
+msgstr ""
+"Beim Versuch, die Oembed-Vorschau zu holen, ist ein Fehler aufgetreten."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/oembed/index.js:203
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:58
+msgid "Please choose"
+msgstr "Bitte wählen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:128
+msgid "An error occurred while trying to create the sidebar."
+msgstr ""
+"Beim Versuch, die Seitenleiste zu erstellen, ist ein Fehler aufgetreten."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/time/index.js:16
+msgid "Select Time"
+msgstr "Zeit wählen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/hocs/with-conditional-logic/index.js:69
+#, javascript-format
+msgid "An unknown field is used in condition - \"%s\""
+msgstr "Ein unbekanntes Feld wird in der Bedingung verwendet - \"%s\""
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/hocs/with-validation/required.js:20
+msgid "This field is required."
+msgstr "Dies ist ein Pflichtfeld."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:40
+#, javascript-format
+msgid "%1$s type must be a string."
+msgstr "%1$s Typ muss eine Zeichenfolge sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:46
+#, javascript-format
+msgid "%1$s %2$s is already registered."
+msgstr "%1$s %2$s ist bereits registriert."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:54
+msgid "The \"component\" param must be a function."
+msgstr "Der Parameter \"Komponente\" muss eine Funktion sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:79
+#, javascript-format
+msgid "The provided context isn't a valid one. Must be one of - %s ."
+msgstr ""
+"Der angegebene Kontext ist kein gültiger Kontext. Muss einer von - %s sein."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:89
+#, javascript-format
+msgid "%s %s isn't registered."
+msgstr "%s %s ist nicht registriert."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/utils/api-fetch.js:19
+msgid "An error occured."
+msgstr "Es ist ein Fehler aufgetreten."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/utils/fetch-attachments-data.js:24
+msgid "An error occurred while trying to fetch files data."
+msgstr ""
+"Beim Versuch, Daten aus den Dateien zu holen, ist ein Fehler aufgetreten."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/containers/index.js:55
+#, javascript-format
+msgid "Could not find DOM element for container \"%1$s\"."
+msgstr "DOM-Element für Container konnte nicht gefunden warden \"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/conditions/base.js:52
+#, javascript-format
+msgid "Unsupported container condition comparison operator used - \"%1$s\"."
+msgstr ""
+"Nicht unterstützter Vergleichsoperator für Container-Bedingungen verwendet - "
+"\"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/handler/index.js:55
+#, javascript-format
+msgid "Unsupported container condition - \"%1$s\"."
+msgstr "Nicht unterstützter Containerzustand - \"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/handler/index.js:73
+#, javascript-format
+msgid "Unsupported container condition relation used - \"%1$s\"."
+msgstr "Nicht unterstützte Container-Bedingungsrelation verwendet - \"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/carbonfields/htmlburger/carbon-fields/templates/Container/common/options-page.php:52
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/carbonfields/htmlburger/carbon-fields/templates/Container/widget.php:4
+msgid "No options are available for this widget."
+msgstr "Für dieses Widget sind keine Optionen verfügbar."
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Scrollsequence"
+msgstr "Scrollsequence"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "www.scrollsequence.com"
+msgstr "www.scrollsequence.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Create stunning image animation that play and rewind on scroll. Make your "
+"website come alive with just few clicks."
+msgstr ""
+"Erstellen Sie atemberaubende Bildanimationen, die beim Scrollen abgespielt "
+"und zurückgespult werden. Erwecken Sie Ihre Website mit nur wenigen Klicks "
+"zum Leben."

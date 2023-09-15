@@ -1,0 +1,66 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+
+ .imageSeqNumber {
+position:absolute; 
+height:16px;
+width:16px;
+top:-17px;
+left:8px; 
+text-shadow: 0px 0px 5px white; 
+font-weight: bold; 
+font-size:18px;
+color: black;
+ }
+
+
+/*
+* SLIDER FOR ALIGNMENT CSS IN ADMIN 
+*
+*/
+
+/* THIS CHANGES HELP TEXT TO BE FULL WIDTH*/
+.ssq-range-slider .cf-field__help {
+	width:100%;
+}
+
+/* THIS CHANGES SLIDER DESIGN */ 
+.ssq-range-slider .cf-text__input {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.ssq-range-slider .cf-text__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; 
+  background: #0075FF;
+  cursor: pointer;
+}
+
+.ssq-range-slider .cf-text__input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0075FF;
+  cursor: pointer;
+}
+
+/* schovej-to */
+
+.schovej-to-policko{
+  display: none;
+}

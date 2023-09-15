@@ -1,0 +1,1055 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scrollsequence\n"
+"POT-Creation-Date: 2021-07-26 20:50+0200\n"
+"PO-Revision-Date: 2021-07-26 20:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: scrollsequence.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-scrollsequence-admin.php:216
+msgid "Left"
+msgstr "Vľavo"
+
+#: admin/class-scrollsequence-admin.php:217
+msgid "Right"
+msgstr "Vpravo"
+
+#: admin/class-scrollsequence-admin.php:222
+msgid "Top"
+msgstr "Hore"
+
+#: admin/class-scrollsequence-admin.php:223
+msgid "Bottom"
+msgstr "Dole"
+
+#: admin/class-scrollsequence-admin.php:255
+#: admin/class-scrollsequence-admin.php:256
+#: admin/class-scrollsequence-admin.php:540
+#: admin/class-scrollsequence-admin.php:556
+#: admin/class-scrollsequence-admin.php:557
+#: admin/class-scrollsequence-admin.php:702
+msgid "Scene"
+msgstr "Scéna"
+
+#: admin/class-scrollsequence-admin.php:256
+#: admin/class-scrollsequence-admin.php:557
+msgid "Scenes"
+msgstr "Scény"
+
+#: admin/class-scrollsequence-admin.php:261
+#: admin/class-scrollsequence-admin.php:562
+msgid "Fixed Content"
+msgstr "Fixný obsah"
+
+#: admin/class-scrollsequence-admin.php:263
+#: admin/class-scrollsequence-admin.php:564
+msgid "Another day on Earth"
+msgstr "Ďalší deň na Zemi"
+
+#: admin/class-scrollsequence-admin.php:264
+#: admin/class-scrollsequence-admin.php:565
+msgid "Image Sequence"
+msgstr "Sekvencia obrázkov"
+
+#: admin/class-scrollsequence-admin.php:269
+#: admin/class-scrollsequence-admin.php:570
+msgid "Fixed Content Animation"
+msgstr "Animácia fixného obsahu"
+
+#: admin/class-scrollsequence-admin.php:273
+#: admin/class-scrollsequence-admin.php:574
+msgid "Animations"
+msgstr "Animácie"
+
+#: admin/class-scrollsequence-admin.php:274
+#: admin/class-scrollsequence-admin.php:431
+#: admin/class-scrollsequence-admin.php:575
+#: admin/class-scrollsequence-admin.php:598
+msgid "Animation"
+msgstr "Animácia"
+
+#: admin/class-scrollsequence-admin.php:276
+#: admin/class-scrollsequence-admin.php:577
+#: admin/partials/scrollsequence-admin-display-get-started.php:105
+msgid "Selector"
+msgstr "Selektor"
+
+#: admin/class-scrollsequence-admin.php:278
+#: admin/class-scrollsequence-admin.php:579
+msgid "Enter #id or .class selector"
+msgstr "Zadajte selektor #id alebo .class"
+
+#: admin/class-scrollsequence-admin.php:279
+#: admin/class-scrollsequence-admin.php:580
+#: admin/partials/scrollsequence-admin-display-get-started.php:141
+msgid "Start"
+msgstr "Štart"
+
+#: admin/class-scrollsequence-admin.php:281
+#: admin/class-scrollsequence-admin.php:582
+msgid "Enter image number where element becomes visible"
+msgstr "Zadajte číslo obrázka, na ktorom sa prvok zviditeľní"
+
+#: admin/class-scrollsequence-admin.php:285
+#: admin/class-scrollsequence-admin.php:586
+#: admin/partials/scrollsequence-admin-display-get-started.php:141
+msgid "End"
+msgstr "Koniec"
+
+#: admin/class-scrollsequence-admin.php:287
+#: admin/class-scrollsequence-admin.php:588
+msgid "Enter image number where element is hidden"
+msgstr "Zadajte číslo obrázka, na ktorom je prvok skrytý"
+
+#: admin/class-scrollsequence-admin.php:298
+msgid "From Animation "
+msgstr "Animovať od "
+
+#: admin/class-scrollsequence-admin.php:300
+#: admin/class-scrollsequence-admin.php:369
+msgid "Animation List"
+msgstr "Zoznam animácií"
+
+#: admin/class-scrollsequence-admin.php:303
+#: admin/class-scrollsequence-admin.php:304
+msgid "From Animation"
+msgstr "Animovať od"
+
+#: admin/class-scrollsequence-admin.php:306
+msgid "Fade From Opacity"
+msgstr "Blednutie z nepriehľadnosti"
+
+#: admin/class-scrollsequence-admin.php:307
+#: admin/class-scrollsequence-admin.php:317
+#: admin/class-scrollsequence-admin.php:327
+#: admin/class-scrollsequence-admin.php:337
+#: admin/class-scrollsequence-admin.php:376
+#: admin/class-scrollsequence-admin.php:386
+#: admin/class-scrollsequence-admin.php:396
+#: admin/class-scrollsequence-admin.php:406
+msgid "Value"
+msgstr "Hodnota"
+
+#: admin/class-scrollsequence-admin.php:316
+msgid "Move From Horizontal Offset"
+msgstr "Presun z horizontálneho posunu"
+
+#: admin/class-scrollsequence-admin.php:326
+msgid "Move From Vertical Offset"
+msgstr "Presun z vertikálneho posunu"
+
+#: admin/class-scrollsequence-admin.php:336
+msgid "Scale From"
+msgstr "Mierka od"
+
+#: admin/class-scrollsequence-admin.php:346
+#: admin/class-scrollsequence-admin.php:415
+msgid "Duration"
+msgstr "Trvanie"
+
+#: admin/class-scrollsequence-admin.php:367
+msgid "To Animation "
+msgstr "Animovať do "
+
+#: admin/class-scrollsequence-admin.php:372
+#: admin/class-scrollsequence-admin.php:373
+msgid "To Animation"
+msgstr "Animovať do"
+
+#: admin/class-scrollsequence-admin.php:375
+msgid "Fade To Opacity"
+msgstr "Prechod na nepriehľadnosť"
+
+#: admin/class-scrollsequence-admin.php:385
+msgid "Move To Horizontal Offset"
+msgstr "Presun do horizontálneho posunu"
+
+#: admin/class-scrollsequence-admin.php:395
+msgid "Move To Vertical Offset"
+msgstr "Presun do vertikálneho posunu"
+
+#: admin/class-scrollsequence-admin.php:405
+msgid "Scale To"
+msgstr "Mierka do"
+
+#: admin/class-scrollsequence-admin.php:456
+#: admin/class-scrollsequence-admin.php:615
+msgid "Image Duration (px)"
+msgstr "Trvanie obrázka (px)"
+
+#: admin/class-scrollsequence-admin.php:464
+#: admin/class-scrollsequence-admin.php:623
+msgid "This sets how far the images are apart."
+msgstr "Tým sa nastaví, ako ďaleko sú od seba obrázky vzdialené."
+
+#: admin/class-scrollsequence-admin.php:468
+#: admin/class-scrollsequence-admin.php:627
+msgid "Image Scale and Alignment"
+msgstr "Mierka a zarovnanie obrázka"
+
+#: admin/class-scrollsequence-admin.php:469
+#: admin/class-scrollsequence-admin.php:628
+msgid "Portrait (Mobile)"
+msgstr "Portrét (mobilný telefón)"
+
+#: admin/class-scrollsequence-admin.php:474
+#: admin/class-scrollsequence-admin.php:510
+#: admin/class-scrollsequence-admin.php:633
+#: admin/class-scrollsequence-admin.php:669
+msgid "Scale to fill"
+msgstr "Mierka na vyplnenie"
+
+#: admin/class-scrollsequence-admin.php:475
+#: admin/class-scrollsequence-admin.php:476
+#: admin/class-scrollsequence-admin.php:477
+#: admin/class-scrollsequence-admin.php:478
+#: admin/class-scrollsequence-admin.php:479
+#: admin/class-scrollsequence-admin.php:480
+#: admin/class-scrollsequence-admin.php:481
+#: admin/class-scrollsequence-admin.php:482
+#: admin/class-scrollsequence-admin.php:511
+#: admin/class-scrollsequence-admin.php:512
+#: admin/class-scrollsequence-admin.php:513
+#: admin/class-scrollsequence-admin.php:514
+#: admin/class-scrollsequence-admin.php:515
+#: admin/class-scrollsequence-admin.php:516
+#: admin/class-scrollsequence-admin.php:517
+#: admin/class-scrollsequence-admin.php:518
+#: admin/class-scrollsequence-admin.php:634
+#: admin/class-scrollsequence-admin.php:639
+#: admin/class-scrollsequence-admin.php:670
+#: admin/class-scrollsequence-admin.php:675
+msgid "Scale to fit"
+msgstr "Škálovanie na mieru"
+
+#: admin/class-scrollsequence-admin.php:484
+#: admin/class-scrollsequence-admin.php:520
+#: admin/class-scrollsequence-admin.php:643
+#: admin/class-scrollsequence-admin.php:679
+msgid "Horizontal Align"
+msgstr "Horizontálne"
+
+#: admin/class-scrollsequence-admin.php:494
+#: admin/class-scrollsequence-admin.php:530
+#: admin/class-scrollsequence-admin.php:653
+#: admin/class-scrollsequence-admin.php:689
+msgid "Vertical Align"
+msgstr "Zvislé zarovnanie"
+
+#: admin/class-scrollsequence-admin.php:505
+#: admin/class-scrollsequence-admin.php:664
+msgid "Landscape (Desktop)"
+msgstr "Krajina (pracovná plocha)"
+
+#: admin/class-scrollsequence-admin.php:593
+msgid "Animation Settings Not Available in Free Version"
+msgstr "Nastavenia animácie nie sú k dispozícii vo verzii zadarmo"
+
+#: admin/class-scrollsequence-admin.php:715
+#: admin/class-scrollsequence-admin.php:750
+msgid "Scroll Delay"
+msgstr "Oneskorenie posúvania"
+
+#: admin/class-scrollsequence-admin.php:716
+msgid "How long it takes the animation to catch up after scroll is finished."
+msgstr "Ako dlho trvá, kým animácia dobehne po skončení posúvania."
+
+#: admin/class-scrollsequence-admin.php:727
+msgid "Visual Markers"
+msgstr "Vizuálne značky"
+
+#: admin/class-scrollsequence-admin.php:728
+#: admin/class-scrollsequence-admin.php:758
+msgid "General Debug"
+msgstr "Všeobecné ladenie"
+
+#: admin/class-scrollsequence-admin.php:729
+#: admin/class-scrollsequence-admin.php:759
+msgid "Image Preload Debug"
+msgstr "Trvanie obrázka (px)"
+
+#: admin/class-scrollsequence-admin.php:754
+msgid "Scroll Delay Settings available only in"
+msgstr "Nastavenia oneskorenia posúvania dostupné len v"
+
+#: admin/class-scrollsequence-admin.php:773
+msgid "Image Width"
+msgstr "Šírka obrázka"
+
+#: admin/class-scrollsequence-admin.php:775
+msgid "Content Width (default)"
+msgstr "Šírka obsahu (predvolené)"
+
+#: admin/class-scrollsequence-admin.php:776
+msgid "Force Full Width"
+msgstr "Vynútiť celú šírku"
+
+#: admin/class-scrollsequence-admin.php:778
+msgid ""
+"Select \"Force Full Width\" to overrride your templates default width. If "
+"the setting does not work, use full width template included in your Theme."
+msgstr ""
+"Výberom možnosti \"Vynútiť celú šírku\" potlačíte predvolenú šírku šablón. "
+"Ak toto nastavenie nefunguje, použite šablónu na celú šírku, ktorá je "
+"súčasťou vašej témy."
+
+#: admin/class-scrollsequence-admin.php:780
+msgid "Image Opacity"
+msgstr "Priehľadnosť obrázka"
+
+#: admin/class-scrollsequence-admin.php:803
+msgid "Custom CSS"
+msgstr "Vlastné CSS"
+
+#: admin/class-scrollsequence-admin.php:813
+msgid "Enter custom CSS here."
+msgstr "Tu zadajte vlastné CSS."
+
+#: admin/class-scrollsequence-admin.php:814
+msgid "Show Development Information"
+msgstr "Zobraziť informácie pre vývojárov"
+
+#: admin/class-scrollsequence-admin.php:827
+msgid "Body Background Color"
+msgstr "Farba pozadia"
+
+#: admin/class-scrollsequence-admin.php:828
+msgid ""
+"Set CSS attribute <i><strong>background-color</strong></i> of "
+"<i><strong>body.single-scrollsequence</strong></i> class."
+msgstr ""
+"Nastavenie atribútu CSS <i><strong>background-color</strong></i> "
+"<i><strong>body.single-scrollsequence</strong></i> class."
+
+#: admin/class-scrollsequence-admin.php:833
+msgid "Show Sidebar"
+msgstr "Zobraziť bočný panel"
+
+#: admin/class-scrollsequence-admin.php:835
+msgid "Experimental, take care"
+msgstr "Experimentálne, dávajte si pozor"
+
+#: admin/class-scrollsequence-admin.php:837
+msgid "Show Footer"
+msgstr "Zobraz pätu"
+
+#: admin/class-scrollsequence-admin.php:839
+msgid ""
+"Experimental, take care. <br>(This setting displays footer element and  "
+"changes z-index to 9999)"
+msgstr ""
+"Experimentálne, dávajte si pozor. <br>(Toto nastavenie zobrazí prvok päty a "
+"zmení z-index na 9999)</br>"
+
+#: admin/class-scrollsequence-admin.php:869
+msgid ""
+"Warning: Image limit reached. For performance reasons, free version allows "
+"maximum of 100 images on a single page. Images marked with \"X\" will not be "
+"displayed."
+msgstr ""
+"Varovanie: Limit obrázkov dosiahnutý. Z výkonnostných dôvodov bezplatná "
+"verzia umožňuje maximálne 100 obrázkov na jednej stránke. Obrázky označené "
+"symbolom \"X\" sa nezobrazia."
+
+#: admin/class-scrollsequence-admin.php:869
+msgid "Upgrade to display unlimited images in your Scrollsequence"
+msgstr "Kúpte si PRO a zobrazujte neobmedzené množstvo obrázkov"
+
+#: admin/class-scrollsequence-admin.php:871
+msgid ""
+"Warning: Scene limit reached. For performance reasons, free version allows "
+"maximum of 3 scenes."
+msgstr ""
+"Varovanie: Limit scén dosiahnutý. Z výkonnostných dôvodov bezplatná verzia "
+"umožňuje maximálne 3 scény."
+
+#: admin/class-scrollsequence-admin.php:871
+msgid "Upgrade to display unlimited scenes in your Scrollsequence"
+msgstr "Aktualizácia na zobrazenie neobmedzeného počtu scén vo Scrollsequence"
+
+#: admin/class-scrollsequence-admin.php:900
+msgid ""
+"<h1>Content Editor </h1>\n"
+"\t\t\t\t<p><strong>Place shortcode <i>[scrollsequence]</i> anywhere in the "
+"classic content to control image sequence position.<br> If not specified "
+"<i>[scrollsequence]</i> shortcode will be placed at the start of content "
+"automatically, rendering the image sequence at the begining of the page. </"
+"strong></p>"
+msgstr ""
+"<h1>Editor obsahu </h1>\n"
+"\t\t\t\t<p><strong>Umiestnite shortcode <i>[scrollsequence]</i> kdekoľvek v "
+"klasickom obsahu na ovládanie pozície sekvencie obrázkov.<br>Ak neuvediete "
+"shortcode <i>[scrollsequence]</i>, bude automaticky umiestnená na začiatok "
+"obsahu, čím sa sekvencia obrázkov zobrazí na začiatku stránky</br> </"
+"strong></p>"
+
+#: admin/class-scrollsequence-admin.php:1129
+msgid ""
+"For performance reasons only one shortcode is allowed in Scrollsequence FREE."
+msgstr ""
+"Z výkonnostných dôvodov je v Scrollsequence FREE povolený len jeden "
+"shortcode."
+
+#: admin/class-scrollsequence-admin.php:1129
+msgid "Upgrade to PRO version for unlimited shortcodes."
+msgstr "Upgrade na verziu PRO pre neobmedzený počet shortcode."
+
+#: admin/class-scrollsequence-admin.php:1152
+msgid "Title"
+msgstr "Názov"
+
+#: admin/class-scrollsequence-admin.php:1153
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-scrollsequence-admin.php:1154
+msgid "Date"
+msgstr "Dátum"
+
+#: admin/class-scrollsequence-admin.php:1155
+msgid "Author"
+msgstr "Autor"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:17
+msgid "For limited time only we offer a trial period of PRO version."
+msgstr "Na obmedzený čas ponúkame skúšobné obdobie verzie PRO."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:19
+msgid "No credit card, no risk. Grab your trial while they last!"
+msgstr ""
+"Žiadna kreditná karta, žiadne riziko. Vezmite si skúšobnú verziu, kým trvá!"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:22
+msgid "14 DAYS FREE TRIAL"
+msgstr "AKTIVUJTE SKÚŠKU NA 14 DNÍ ZADARMO"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:40
+msgid "Getting Started is easy, watch the steps below."
+msgstr "Začiatok je jednoduchý, pozrite si nasledujúce kroky."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:45
+msgid "Getting Started Video"
+msgstr "Úvodné video"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:53
+msgid "Create a new Scene"
+msgstr "Vytvorenie novej scény"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:55
+msgid ""
+"Click on <i><strong>(1) Add New Scrollsequence</strong></i>, set a "
+"<i><strong>(2) title</strong></i> name and  <i><strong>(3) Add Scene</"
+"strong></i>."
+msgstr ""
+"Kliknite na <i><strong>(1) Pridať novú sekvenciu posúvania</strong></i>, "
+"nastavte <i><strong>(2) názov</strong></i> názov a <i><strong>(3) Pridať "
+"scénu</strong></i>."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:62
+msgid "Select Images"
+msgstr "Vybrať obrázky"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:64
+msgid ""
+"Click on <i><strong>(4) Select Images</strong></i> (5) confirm selection "
+"that you want to use. Hold down CTRL or SHIFT for multiple selection.<br> "
+"Take care about the order you select your images. After you made and "
+"confirmed your selection, you can easily drag and drop to reorder."
+msgstr ""
+"Kliknite na <i><strong>(4) Vyberte obrázky</strong></i> (5) potvrďte výber, "
+"ktorý chcete použiť. Pre viacnásobný výber podržte stlačený kláves CTRL "
+"alebo SHIFT.<br>Dbajte na poradie, v akom vyberáte obrázky. Po vykonaní a "
+"potvrdení výberu môžete jednoducho ťahaním zmeniť poradie."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:66
+msgid ""
+"If you do not have your own images available, you can use one of our "
+"<b>Image Packs</b>"
+msgstr ""
+"Ak nemáte k dispozícii vlastné obrázky, môžete použiť niektorý z našich "
+"<b>balíkov obrázkov</b>"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:77
+msgid "Create Scene Content"
+msgstr "Vytvorenie obsahu scény"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:79
+msgid ""
+"Standard TinyMCE editor is being used for writing the content. TinyMCE is "
+"the most advanced editor on the market. Supports shortcodes, oEmbed and many "
+"other features."
+msgstr ""
+"Na písanie obsahu sa používa štandardný editor TinyMCE. TinyMCE je "
+"najpokročilejší editor na trhu. Podporuje skratky, oEmbed a mnoho ďalších "
+"funkcií."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:81
+msgid ""
+"HTML content is made up of elements. Each element can have one unique <b>ID</"
+"b> and multiple <b>class</b>es."
+msgstr ""
+"Obsah HTML sa skladá z prvkov. Každý prvok môže mať jedno jedinečné <b>ID</"
+"b> a viacero <b>class</b> tried."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:85
+msgid ""
+"<b>Class</b>es and <b>ID</b>s are used as selectors for on scroll animation, "
+"details are described in paragraphs below."
+msgstr ""
+"<b>Class</b> triedy a <b>ID</b>sa používajú ako selektory pre animáciu pri "
+"posúvaní, podrobnosti sú opísané v nasledujúcich odsekoch."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:90
+msgid "Animate"
+msgstr "Animovať"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:92
+msgid ""
+"Click on <i><strong>(6) Add Animation</strong></i>.The most basic is In/Out "
+"Animation.<br>Three basic parameters are required for each animated element. "
+"You can add more element animations with the little plus sign. "
+msgstr ""
+"Kliknite na <i><strong>(6) Pridať animáciu</strong></i>.Najzákladnejšia je "
+"Animácia vstupov a výstupov.<br>Pre každý animovaný prvok sú potrebné tri "
+"základné parametre. Pomocou malého znamienka plus môžete pridať ďalšie "
+"animácie prvkov "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:96
+msgid "Selector example use"
+msgstr "Príklad použitia selektora"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:106
+#: admin/partials/scrollsequence-admin-display-get-started.php:143
+msgid "Description"
+msgstr "Popis"
+
+#. translators: 1: Note
+#: admin/partials/scrollsequence-admin-display-get-started.php:116
+#, php-format
+msgid ""
+"Select a HTML element with id=\"%1$s\". IDs should be unique. This means "
+"that only one HTML element can have the same id."
+msgstr ""
+"Vyberte prvok HTML s id=\"%1$s\". ID by mali byť jedinečné. To znamená, že "
+"rovnaké id môže mať len jeden prvok HTML."
+
+#. translators: 1: Note
+#: admin/partials/scrollsequence-admin-display-get-started.php:128
+#, php-format
+msgid ""
+"Select each HTML element with class=\"%1$s\". Multiple elements can have "
+"same class attribute."
+msgstr ""
+"Vyberte každý prvok HTML s class=\"%1$s\". Viacero prvkov môže mať rovnaký "
+"atribút class."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:136
+msgid "Start and End example use"
+msgstr "Príklad použitia na začiatku a na konci"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:152
+msgid ""
+"Element is visible when page is loaded. Once user starts scrolling down, "
+"element is hidden once user reaches the fiteenth image."
+msgstr ""
+"Prvok je viditeľný pri načítaní stránky. Keď používateľ začne rolovať nadol, "
+"prvok sa skryje, keď používateľ dosiahne patnáctý obrázok."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:162
+msgid ""
+"Element is hidden when page is loaded. Once user starts scrolling down, "
+"element is displayed from 5th to 30th image in the sequence. "
+msgstr ""
+"Prvok sa po načítaní stránky skryje. Keď používateľ začne rolovať nadol, "
+"prvok sa zobrazí od 5. do 30. obrázka v poradí "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:179
+msgid "Full Tutorial Video"
+msgstr "Úplné výukové video"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:190
+msgid "Tips and Tricks"
+msgstr "Tipy a triky"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:195
+msgid "Basic Use"
+msgstr "Základné použitie"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:199
+msgid ""
+"Add another Scene to the sequence. Each Scene contains image sequence, "
+"content and setting like duration, alignment and scale. Scenes can be re-"
+"ordered by drag and drop. If you wish you can make a copy of a similar Scene."
+msgstr ""
+"Pridanie ďalšej scény do sekvencie. Každá scéna obsahuje sekvenciu obrázkov, "
+"obsah a nastavenia, ako je trvanie, zarovnanie a mierka. Scény možno zmeniť "
+"ich poradie pretiahnutím. Ak chcete, môžete vytvoriť kópiu podobnej scény."
+
+#. translators: 1: %1$s:[scrollsequence] %2$s:[scrollsequence id="####" margintop="-200px"]
+#: admin/partials/scrollsequence-admin-display-get-started.php:204
+#, php-format
+msgid ""
+"Add %1$s shortcode to control position of the image animation in the "
+"content. Margintop, marginbottom shortcode options give you control of the "
+"margins. Use negative margin to overlap with classic content before or after "
+"the animation. Example %2$s."
+msgstr ""
+"Pridajte %1$s shortcode na ovládanie pozície animácie obrázku v obsahu. "
+"Možnosti shortcode Margintop, Marginbottom vám umožňujú ovládať okraje. "
+"Použite záporný margin na prekrývanie s klasickým obsahom pred alebo za "
+"animáciou. Príklad %2$s."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:216
+msgid "Advanced Use"
+msgstr "Pokročilé používanie"
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:220
+msgid ""
+"Custom CSS is a great way how to add a magic touch to your design. Simply "
+"write or paste CSS code."
+msgstr ""
+"Vlastné CSS je skvelý spôsob, ako pridať svojmu dizajnu kúzelný nádych. "
+"Stačí napísať alebo vložiť kód CSS."
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:224
+#, php-format
+msgid ""
+"Read our <a href=\"%1$s\" target=\"_blank\">documentation</a>, learn the "
+"basics, have a look at some examples and get inspiration for your project. "
+msgstr ""
+"Prečítajte si našu <a href=\"%1$s\" target=\"_blank\">dokumentáciu</a>, "
+"naučte sa základy, pozrite si príklady a získajte inšpiráciu pre svoj "
+"projekt "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:229
+msgid ""
+"Debug mode gives you information when you fall into trouble. If you stumble "
+"upon an issue, don not hesitate and "
+msgstr ""
+"Režim ladenia vám poskytne informácie, keď sa dostanete do problémov. Ak "
+"narazíte na problém, neváhajte a "
+
+#: admin/partials/scrollsequence-admin-display-get-started.php:231
+msgid "contact us"
+msgstr "kontaktujte nás"
+
+#: admin/partials/scrollsequence-admin-display-options.php:8
+msgid "Image Preload Percentage"
+msgstr "Percento predbežného načítania obrázka"
+
+#: admin/partials/scrollsequence-admin-display-options.php:11
+msgid ""
+"Display animation after percentage of images are finished preloading. "
+"Default 12%"
+msgstr ""
+"Zobrazenie animácie po skončení predvyplnenia percenta obrázkov. Predvolené "
+"nastavenie 12%"
+
+#: admin/partials/scrollsequence-admin-display-options.php:28
+msgid "Elementor Widget (Experimental)"
+msgstr "Widget Elementor (experimentálny)"
+
+#: admin/partials/scrollsequence-admin-display-options.php:31
+msgid ""
+"Turn Experimental Elementor Widget on or off. <b>Warning: You may loose your "
+"work after updating</b>."
+msgstr ""
+"Zapnutie alebo vypnutie experimentálneho widgetu Elementor. <b>Upozornenie: "
+"Po aktualizácii môžete stratiť svoju prácu</b>."
+
+#: admin/partials/scrollsequence-admin-display.php:74
+msgid ""
+"You are working with Beta version. Use with caution. Backup your work before "
+"updating."
+msgstr ""
+"Pracujete s verziou Beta. Používajte ju opatrne. Pred aktualizáciou si prácu "
+"zálohujte."
+
+#: admin/partials/scrollsequence-admin-display.php:105
+msgid "Get Started"
+msgstr "Začnite tu"
+
+#: admin/partials/scrollsequence-admin-display.php:109
+msgid "Options"
+msgstr "Nastavenia"
+
+#: admin/partials/scrollsequence-admin-display.php:118
+msgid "Upgrade"
+msgstr "Aktualizácia"
+
+#: admin/partials/scrollsequence-admin-display.php:124
+msgid "Examples"
+msgstr "Príklady"
+
+#: admin/partials/scrollsequence-admin-display.php:128
+msgid "Docs"
+msgstr "Dokumenty"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:287
+msgid "The parent must be 'array', 'string' or 'null'."
+msgstr "Rodič musí byť 'array', 'string' alebo 'null'."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:316
+msgid "The position of inner blocks must be 'above' or 'below'."
+msgstr "Poloha vnútorných blokov musí byť \"nad\" alebo \"pod\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:334
+msgid "The template must be an 'array' or 'null'."
+msgstr "Šablóna musí byť \"array\" alebo \"null\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:352
+msgid "The template lock must be 'all', 'insert', 'false' or 'null'."
+msgstr "Zámok šablóny musí byť \"all\", \"insert\", \"false\" alebo \"null\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:370
+msgid "The allowed blocks must be an 'array' or 'null'."
+msgstr "Povolené bloky musia byť \"array\" alebo \"null\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:437
+msgid "'render_callback' is required for the blocks."
+msgstr "'render_callback' sa vyžaduje pre bloky."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Block_Container.php:441
+msgid "'render_callback' must be a callable."
+msgstr "'render_callback' musí byť callable."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Container.php:727
+msgid "General"
+msgstr "Všeobecné"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
+msgid "Settings saved."
+msgstr "Nastavenia uložené."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+"Ak potrebujete do päty pridať skripty (napríklad sledovací kód služby Google "
+"Analytics), mali by ste ich zadať do tohto poľa."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
+msgid "No form"
+msgstr "Žiadny formulár"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr "Ak potrebujete do záhlavia pridať skripty, mali by ste ich zadať tu."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Field/Sidebar_Field.php:74
+msgctxt "sidebar"
+msgid "Add New"
+msgstr "Pridať nové"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
+msgid "Please enter a name for the sidebar."
+msgstr "Zadajte názov bočného panela."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
+msgid "Unknown action attempted."
+msgstr "Pokus o neznámu akciu."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
+msgid "Sidebar with the same ID is already registered."
+msgstr "Bočný panel s rovnakým ID je už zaregistrovaný."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
+msgid ""
+"Failed to update option storing your custom sidebars. Please contact support."
+msgstr ""
+"Nepodarilo sa aktualizovať možnosť ukladania vlastných bočných panelov. "
+"Kontaktujte prosím podporu."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
+msgid "Sidebar not found."
+msgstr "Bočný panel nebol nájdený."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
+msgid "Add Sidebar"
+msgstr "Pridať bočný panel"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:110
+msgid "Please enter the name of the new sidebar:"
+msgstr "Zadajte názov nového bočného panela:"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr "Ste si istí, že chcete odstrániť tento bočný panel?"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:398
+msgid "No option names provided"
+msgstr "Nie sú uvedené žiadne názvy možností"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:409
+msgid "Theme Options updated."
+msgstr "Nastavenia témy boli aktualizované. "
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:431
+msgid "Sorry, you are not allowed to read blocks of this post."
+msgstr "Je nám ľúto, ale bloky tohto príspevku nemôžete čítať."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:441
+msgid "Sorry, you are not allowed to read blocks as this user."
+msgstr "Je nám ľúto, ale ako tento používateľ nemáte povolené čítať bloky."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:462
+msgid "The requested type: ID or URL."
+msgstr "Požadovaný typ: ID alebo URL."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:467
+msgid "The ID / URL of the attachment"
+msgstr "ID / URL adresy prílohy"
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:484
+msgid "The name of the block."
+msgstr "Názov bloku."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:489
+msgid "The content of the block."
+msgstr "Animácia fixného obsahu."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:493
+msgid "ID of the post context."
+msgstr "ID kontextu príspevku."
+
+#: includes/carbonfields/htmlburger/carbon-fields/core/REST_API/Router.php:524
+msgid "Invalid block."
+msgstr "Neplatný blok."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:214
+msgid "Show preview"
+msgstr "Ukážte náhľad"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:215
+msgid "Hide preview"
+msgstr "Skryť náhľad"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:286
+msgid "Fields"
+msgstr "Polia"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/not-supported-field/index.js:14
+#, javascript-format
+msgid "Field of type '%s' is not supported in Gutenberg."
+msgstr "Pole typu '%s' nie je v systéme Gutenberg podporované."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/server-side-render/index.js:129
+#, javascript-format
+msgid "Error loading block: %s"
+msgstr "Chyba pri načítaní bloku: %s"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/components/server-side-render/index.js:135
+msgid "No results found."
+msgstr "Nenašiel sa výsledok."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/datetime/index.js:59
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/date/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/datetime/index.js:9
+msgid "Select Date"
+msgstr "Vyberte dátum"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:17
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:10
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:12
+msgid "Select File"
+msgstr "Vybrať súbor"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:16
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:11
+msgid "Use File"
+msgstr "Použitie súboru"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:10
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:12
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:10
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:12
+msgid "Select Image"
+msgstr "Vybrať obrázok"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:11
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:11
+msgid "Use Image"
+msgstr "Použitie obrázka"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:17
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:15
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:17
+msgid "Select Attachments"
+msgstr "Vyberte prílohy"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:16
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:16
+msgid "Use Attachments"
+msgstr "Používanie príloh"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/components/no-options/index.js:14
+msgid "No options."
+msgstr "Žiadne možnosti."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/components/search-input/index.js:30
+msgid "Search..."
+msgstr "Hľadať..."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/association/index.js:169
+#, javascript-format
+msgid "Maximum number of items reached (%s items)"
+msgstr "Maximálny počet dosiahnutých položiek (%s položiek)"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/association/index.js:267
+#, javascript-format
+msgid "Showing %1$d of %2$d results"
+msgstr "Zobrazuje sa %1$d z %2$d výsledkov"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/color/index.js:92
+msgid "Select a color"
+msgstr "Vyberte farbu"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/complex/index.js:82
+#, javascript-format
+msgid "Add %s"
+msgstr "Pridať %s"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/complex/index.js:146
+#, javascript-format
+msgid "Couldn't create the label of group - %s"
+msgstr "Nepodarilo sa vytvoriť štítok skupiny - %s"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/complex/index.js:344
+msgid "There are no entries yet."
+msgstr "Zatiaľ nie sú žiadne záznamy."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/map/index.js:167
+msgid "Geocode was not successful for the following reason: "
+msgstr "Geokódovanie nebolo úspešné z nasledujúceho dôvodu "
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/oembed/index.js:188
+msgid "An error occurred while trying to fetch oembed preview."
+msgstr "Pri pokuse o načítanie náhľadu oembed došlo k chybe."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/oembed/index.js:203
+msgid "Not Found"
+msgstr "Nenájdené"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:58
+msgid "Please choose"
+msgstr "Vyberte si, prosím"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:128
+msgid "An error occurred while trying to create the sidebar."
+msgstr "Pri pokuse o vytvorenie bočného panela došlo k chybe."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/fields/time/index.js:16
+msgid "Select Time"
+msgstr "Vybrať čas"
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/hocs/with-conditional-logic/index.js:69
+#, javascript-format
+msgid "An unknown field is used in condition - \"%s\""
+msgstr "V podmienke je použité neznáme pole - \"%s\""
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/hocs/with-validation/required.js:20
+msgid "This field is required."
+msgstr "Toto pole je povinné."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:40
+#, javascript-format
+msgid "%1$s type must be a string."
+msgstr "Typ %1$s musí byť reťazec."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:46
+#, javascript-format
+msgid "%1$s %2$s is already registered."
+msgstr "%1$s %2$s je už zaregistrované."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:54
+msgid "The \"component\" param must be a function."
+msgstr "Param \"component\" musí byť funkcia."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:79
+#, javascript-format
+msgid "The provided context isn't a valid one. Must be one of - %s ."
+msgstr "Uvedený kontext nie je platný. Musí to byť jeden z - %s ."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/registry/index.js:89
+#, javascript-format
+msgid "%s %s isn't registered."
+msgstr "%s %s nie je zaregistrované."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/utils/api-fetch.js:19
+msgid "An error occured."
+msgstr "Vyskytla sa chyba."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/core/utils/fetch-attachments-data.js:24
+msgid "An error occurred while trying to fetch files data."
+msgstr "Pri pokuse o načítanie údajov súborov došlo k chybe."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/containers/index.js:55
+#, javascript-format
+msgid "Could not find DOM element for container \"%1$s\"."
+msgstr "Nepodarilo sa nájsť prvok DOM pre kontajner \"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/conditions/base.js:52
+#, javascript-format
+msgid "Unsupported container condition comparison operator used - \"%1$s\"."
+msgstr ""
+"Použitý nepodporovaný operátor porovnania podmienok kontajnera - \"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/handler/index.js:55
+#, javascript-format
+msgid "Unsupported container condition - \"%1$s\"."
+msgstr "Nepodporovaná podmienka kontajnera - \"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/handler/index.js:73
+#, javascript-format
+msgid "Unsupported container condition relation used - \"%1$s\"."
+msgstr "Použitý nepodporovaný vzťah podmienky kontajnera - \"%1$s\"."
+
+#: includes/carbonfields/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
+msgid "Actions"
+msgstr "Akcie"
+
+#: includes/carbonfields/htmlburger/carbon-fields/templates/Container/common/options-page.php:52
+msgid "Save Changes"
+msgstr "Uložiť zmeny"
+
+#: includes/carbonfields/htmlburger/carbon-fields/templates/Container/widget.php:4
+msgid "No options are available for this widget."
+msgstr "Pre tento widget nie sú k dispozícii žiadne možnosti."
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Scrollsequence"
+msgstr "Scrollsequence"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "www.scrollsequence.com"
+msgstr "www.scrollsequence.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Create stunning image animation that play and rewind on scroll. Make your "
+"website come alive with just few clicks."
+msgstr ""
+"Vytvárajte úžasné animácie obrázkov, ktoré sa pri posúvaní prehrávajú a "
+"pretáčajú. Oživte svoje webové stránky niekoľkými kliknutiami."

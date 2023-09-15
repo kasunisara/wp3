@@ -1,0 +1,156 @@
+
+= 1.2.6 =
+- Mobile detection added
+
+= 1.2.5 =
+
+= 1.2.4 = Update
+- Minor Update
+
+= 1.2.4 = Update
+- Security Fix
+
+= 1.2.3 = Update
+- Full site editing compatibility - wp_add_inline_script replaced  
+- Removed obsolete preloader files
+
+
+= 1.2.2 = Update
+- Bugfix Images Disapear On Save
+- Carbon Fields Library Update (v3.4.0-beta.2)
+- Scrollsequence List Thumbnail Update 
+
+= 1.2.1 = Update
+- Revisions support added
+
+= 1.2.0 = Update
+- Featured Image Admin Column 
+- AnticipatePin:1 added
+- Added flex-basis on #main-content to improve flex behavior in scrollsequence template
+- Updated readme.txt
+
+= 1.1.9 = Update
+- Out animation bugfix
+
+= 1.1.8 = Update
+- Duplicate Scrollsequence added
+
+= 1.1.7 = Update
+- Library Update (gsap, carbonfields)
+
+= 1.1.6 = Update
+- Compatibility bug with third party plugins solved  
+- Added ssqPreloadPercentage Event
+
+= 1.1.5 = Update
+- Removed new filters for backwards compatibility of WP
+
+= 1.1.4 = Update
+- CZ,DE,FR and SK Languages Added
+- Minor Wording Changes
+
+= 1.1.3 = Update
+- Bugfix for default value for preload percentage 
+
+
+
+= 1.1.2 = Update
+- Carbon Fields Library Updated to 3.3.0
+- Custom filter added for fixed content
+- Elementor Backend View Fixed (PRO)
+
+= 1.1.1 = Update
+- Dashboard Slug Renamed
+- Dashboard Facelift + Added Options Tab
+- One, five and ten seconds Delayed Call for ScrollTrigger refresh was added (PRO)
+- Wording changed in "Image Was Not Loaded In Time"
+
+= 1.1.0 = Update
+- Dashboard Update
+- Image Bulk Actions Update (Sort by name, date, reverse and delete all)
+
+= 1.0.078 = Update
+- Removed GSAP warning from console
+- Added Delete All  button for images in sequence 
+- stable tag changed to trunk
+
+= 1.0.077 = Update
+- Translation added
+- Renamed script enqueue names
+- Affiliation added
+- Naming changed for Scene and Fixed Content
+- Gsap and ScrollTrigger update (3.4 -> 3.6.0)
+
+
+
+= 1.0.076 = Update
+- Image sort button added 
+- Default image duration changed. From 10 to 25 pixels
+- Freemius SDK update to 2.4.2
+- CarbonFields updated to newest
+- Removed some console warnings about image/page limits
+
+
+= 1.0.075 = Update
+- Duplicated Custom CSS in CPT template 
+- Added info about margintop and marginbottom to the CPT
+- Typo in Panorama -> Portrait
+- Fixed error with activating trial versions on some configurations 
+
+= 1.0.074 = Update
+- logic issue with From Animation where fade in did not work as expected (admin.php *wrap visibility:hidden removed + ssq-lib__prem_onl.js line removed + line added after timelines are created)
+
+
+= 1.0.073 = Update
+- Bug where featured image did not show up was fixed
+- scrollsequence-page changed from "section" to "div" element due to some themes have background on all sections. 
+
+= 1.0.072 = Update
+- Dashboard update
+
+= 1.0.071 = Major Update
+- WordPress Shortcode support
+- Page duration in px, not vh units
+- Scrollsequence changed from fixed to sticky behavior
+- Gauss Image Preloading - reducing the loading time by 90%
+- Removed frame/second units choice
+- Added explicit default values for scale
+- Conditional display of UI fields
+- Math.ceil changed to Math.round for x and y canvas draw positions
+- Spacer offset had incorrect calculation on refresh when scrolled
+- Changed default content in CPT to work straight away (centered and formatted text)
+- Canvas CSS + DOM position changed
+- Added optional z-index support for image canvas
+- Optimized page,image and element length calculations for better performance
+- Default image opacity changed to 0.9 for easier troubleshoot with visibility
+
+= 0.9.96 = Update
+- Updated Freemius SDK to 2.41
+
+= 0.9.94 = Update
+- Content can be displayed after the sequence with or without intersect or during scrollsequence
+- Precise Image Scale and Position options added
+- Cleaner Pre-Loading screen design & animation
+- Trial program added (x2)
+- Removed canvas CSS scaling for performance reasons (FREE + PRO)
+- Typo in animation settings URL (FREE)
+- drawImage uses Math.ceil to round up image size to nearest pixel
+- Dashboard getting started updated. HTML content added (FREE + PRO)
+- Added "Classic Content Editor" Heading
+
+
+= 0.9.93 = Update
+- Dashboard submenu capability lowered from "manage_options" to "edit_posts" (FREE+PRO)
+- renderCanvas now only fires on image change. (PRO)
+- drawImage now uses rounded values to avoid sub-pixel rendering (FREE+PRO)
+- Preload percentage changed from 0.7 to 0.6 (FREE+PRO)
+- admin.js file is now loaded only on scrollsequence CPT on post-new.php and post.php files
+- ?nogsap parameter added to the URL renders animation without GSAP library (PRO)
+
+= 0.9.92 = Minor Update
+- Horizontal and Vertical Move - units changed from "px" to "percent", limits were raised.
+- Page duration minimal duration changed to 20 from 200
+- Added ssqalert to single scrollsequence template to have alert zone ready (empty)
+- Updated performance for GSAP Ticker function, removed delay 
+
+= 0.9.91 = Private Beta Release

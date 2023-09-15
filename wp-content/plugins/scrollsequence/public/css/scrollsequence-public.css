@@ -1,0 +1,40 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+ /* This file is not really needed.  */ 
+
+
+ /*SCROLLSEQUENCE CSS REQUIRED */	
+	body,
+	html {
+		height: 100%;
+		font-size: 16px;
+		font-weight: normal;
+		font-family: "Roboto", sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+ /*SCROLLSEQUENCE CSS VARIABLE */
+	:root {
+	  --border: 0px;
+	}	
+ /*SCROLLSEQUENCE CSS DEBUG */
+	#canvas{
+	border: var(--border) solid yellow;
+	}
+
+	#scrollsequence-wrap{
+	border: var(--border) solid black;
+	}
+
+	.scrollsequence-page{
+	border: var(--border) dotted orange;
+
+	}	
+
+
