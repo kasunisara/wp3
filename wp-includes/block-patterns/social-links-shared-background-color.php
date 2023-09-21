@@ -1,18 +1,3 @@
-<?php
-/**
- * Social links with a shared background color.
- *
- * @package WordPress
- */
-
-return array(
-	'title'         => _x( 'Social links with a shared background color', 'Block pattern title' ),
-	'categories'    => array( 'buttons' ),
-	'blockTypes'    => array( 'core/social-links' ),
-	'viewportWidth' => 500,
-	'content'       => '<!-- wp:social-links {"customIconColor":"#ffffff","iconColorValue":"#ffffff","customIconBackgroundColor":"#3962e3","iconBackgroundColorValue":"#3962e3","className":"has-icon-color"} -->
-						<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"https://wordpress.org","service":"wordpress"} /-->
-						<!-- wp:social-link {"url":"#","service":"chain"} /-->
-						<!-- wp:social-link {"url":"#","service":"mail"} /--></ul>
-						<!-- /wp:social-links -->',
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:089ca3408fe7148839656eace6495fe7a71bcb6beba6ba2be7928bff0cdc629b
+size 843
