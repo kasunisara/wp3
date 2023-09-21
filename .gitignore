@@ -14,3 +14,6 @@ wp-content/uploads/simply-static/temp-files/simply-static-1-1695300934/wp-conten
 *.php
 *.eot
 *.ttf
+*.woff
+*.woff2
+*.otf
