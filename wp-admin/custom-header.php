@@ -1,15 +1,3 @@
-<?php
-/**
- * Custom header image script.
- *
- * This file is deprecated, use 'wp-admin/includes/class-custom-image-header.php' instead.
- *
- * @deprecated 5.3.0
- * @package WordPress
- * @subpackage Administration
- */
-
-_deprecated_file( basename( __FILE__ ), '5.3.0', 'wp-admin/includes/class-custom-image-header.php' );
-
-/** Custom_Image_Header class */
-require_once ABSPATH . 'wp-admin/includes/class-custom-image-header.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:d00d1f5f7d99ecf937edbb801e73ca57608e44ef8aee17711fce6982fb36b067
+size 426

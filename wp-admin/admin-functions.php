@@ -1,15 +1,3 @@
-<?php
-/**
- * Administration Functions
- *
- * This file is deprecated, use 'wp-admin/includes/admin.php' instead.
- *
- * @deprecated 2.5.0
- * @package WordPress
- * @subpackage Administration
- */
-
-_deprecated_file( basename( __FILE__ ), '2.5.0', 'wp-admin/includes/admin.php' );
-
-/** WordPress Administration API: Includes all Administration functions. */
-require_once ABSPATH . 'wp-admin/includes/admin.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:abfad26872daf12bb538a78a40781c78a2af123d3f83d72c1a577f3a85405d9e
+size 406
