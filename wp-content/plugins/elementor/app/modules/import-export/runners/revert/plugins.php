@@ -1,16 +1,3 @@
-<?php
-
-namespace Elementor\App\Modules\ImportExport\Runners\Revert;
-
-class Plugins extends Revert_Runner_Base {
-
-	public static function get_name() : string {
-		return 'plugins';
-	}
-
-	public function should_revert( array $data ) : bool {
-		return false;
-	}
-
-	public function revert( array $data ) {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c29762104fb6a54f203ab9d087db688e7410ae614502475310909c50c08ad03
+size 302

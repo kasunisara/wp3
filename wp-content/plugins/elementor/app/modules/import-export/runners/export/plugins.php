@@ -1,29 +1,3 @@
-<?php
-
-namespace Elementor\App\Modules\ImportExport\Runners\Export;
-
-class Plugins extends Export_Runner_Base {
-
-	public static function get_name() : string {
-		return 'plugins';
-	}
-
-	public function should_export( array $data ) {
-		return (
-			isset( $data['include'] ) &&
-			in_array( 'plugins', $data['include'], true ) &&
-			is_array( $data['selected_plugins'] )
-		);
-	}
-
-	public function export( array $data ) {
-		$manifest_data['plugins'] = $data['selected_plugins'];
-
-		return [
-			'manifest' => [
-				$manifest_data,
-			],
-			'files' => [],
-		];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d5981c3235fdf805e47ae24b9e1599bf6efd1932b4b39d583947274fcb0b9e9
+size 559

@@ -1,24 +1,3 @@
-<?php
-
-namespace Elementor\App\Modules\ImportExport\Runners\Revert;
-
-use Elementor\App\Modules\ImportExport\Runners\Runner_Interface;
-
-abstract class Revert_Runner_Base implements Runner_Interface {
-
-	/**
-	 * By the passed data we should decide if we want to run the revert function of the runner or not.
-	 *
-	 * @param array $data
-	 *
-	 * @return bool
-	 */
-	abstract public function should_revert( array $data ) : bool;
-
-	/**
-	 * Main function of the runner revert process.
-	 *
-	 * @param array $data Necessary data for the revert process.
-	 */
-	abstract public function revert( array $data );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a2b1fe26254193b1b7d01a4df0124ead015787a05d9347a6422f080803a55c0
+size 597

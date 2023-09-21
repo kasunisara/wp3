@@ -1,28 +1,3 @@
-<?php
-namespace Elementor\Core\App\Modules\KitLibrary;
-
-use Elementor\Core\Base\Module as BaseModule;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-/**
- * This App class exists for backwards compatibility with 3rd parties.
- *
- * @deprecated 3.8.0
- */
-class Module extends BaseModule {
-
-	/**
-	 * @deprecated 3.8.0
-	 */
-	const VERSION = '1.0.0';
-
-	/**
-	 * @deprecated 3.8.0
-	 */
-	public function get_name() {
-		return 'kit-library-bc';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dca35248d9df3705f9f5488bc176c1932625e7d81c75e95f0a84c38e3391c65
+size 465

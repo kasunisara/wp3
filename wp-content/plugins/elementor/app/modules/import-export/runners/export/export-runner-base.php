@@ -1,27 +1,3 @@
-<?php
-
-namespace Elementor\App\Modules\ImportExport\Runners\Export;
-
-use Elementor\App\Modules\ImportExport\Runners\Runner_Interface;
-
-abstract class Export_Runner_Base implements Runner_Interface {
-
-	/**
-	 * By the passed data we should decide if we want to run the export function of the runner or not.
-	 *
-	 * @param array $data
-	 *
-	 * @return bool
-	 */
-	abstract public function should_export( array $data );
-
-	/**
-	 * Main function of the runner export process.
-	 *
-	 * @param array $data Necessary data for the export process.
-	 *
-	 * @return array{files: array, manifest: array}
-	 * The files that should be part of the kit and the relevant manifest data.
-	 */
-	abstract public function export( array $data );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7cae33d6f8f139958ba3b544aa148578811c25ef762094e8e9f73254ceeb3fd1
+size 720

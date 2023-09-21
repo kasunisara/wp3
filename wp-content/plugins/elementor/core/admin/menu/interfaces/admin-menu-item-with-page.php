@@ -1,13 +1,3 @@
-<?php
-
-namespace Elementor\Core\Admin\Menu\Interfaces;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-interface Admin_Menu_Item_With_Page extends Admin_Menu_Item {
-	public function get_page_title();
-
-	public function render();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:abdc16c4c039fb773043d9868ed7a40efcdc68a169fcd8435dafe1796adc6887
+size 254

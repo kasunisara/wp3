@@ -1,27 +1,3 @@
-<?php
-
-namespace Elementor\App\Modules\ImportExport\Runners\Revert;
-
-use Elementor\Plugin;
-
-class Site_Settings extends Revert_Runner_Base {
-
-	public static function get_name() : string {
-		return 'site-settings';
-	}
-
-	public function should_revert( array $data ) : bool {
-		return (
-			isset( $data['runners'] ) &&
-			array_key_exists( static::get_name(), $data['runners'] )
-		);
-	}
-
-	public function revert( array $data ) {
-		Plugin::$instance->kits_manager->revert(
-			$data['runners'][ static::get_name() ]['imported_kit_id'],
-			$data['runners'][ static::get_name() ]['active_kit_id'],
-			$data['runners'][ static::get_name() ]['previous_kit_id']
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0eb0881233c66ee7af476a505127ac814ea18308b304de7495c2c36a9804ea99
+size 662

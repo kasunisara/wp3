@@ -1,19 +1,3 @@
-<?php
-
-namespace Elementor\App\Modules\ImportExport\Runners\Revert;
-
-class Templates extends Revert_Runner_Base {
-	/*
-	 * The implement of this runner is part of the Pro plugin.
-	 */
-
-	public static function get_name() : string {
-		return 'templates';
-	}
-
-	public function should_revert( array $data ) : bool {
-		return false;
-	}
-
-	public function revert( array $data ) { }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd7bbfb32f62fb39e1c3d3f3c9800637b6964d33d1451b879226e0d01acc5458
+size 376

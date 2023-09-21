@@ -1,34 +1,3 @@
-<?php
-namespace Elementor\App\Modules\ImportExport;
-
-use Elementor\App\Modules\ImportExport\Module as Import_Export_Module;
-use Elementor\Core\Base\Module as BaseModule;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-/**
- * This App class exists for backwards compatibility with 3rd parties.
- *
- * @deprecated 3.8.0
- */
-class Module extends BaseModule {
-
-	/**
-	 * @deprecated 3.8.0
-	 */
-	const VERSION = '1.0.0';
-
-	/**
-	 * @deprecated 3.8.0
-	 */
-	public $import;
-
-	/**
-	 * @deprecated 3.8.0
-	 */
-	public function get_name() {
-		return 'import-export-bc';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:89581eb16bcd1638c0270e7e1f38b082cf7dbd8c26d717aba7da05892aabbde6
+size 585

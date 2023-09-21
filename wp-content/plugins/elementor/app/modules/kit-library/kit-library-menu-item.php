@@ -1,28 +1,3 @@
-<?php
-namespace Elementor\App\Modules\KitLibrary;
-
-use Elementor\Core\Admin\Menu\Interfaces\Admin_Menu_Item;
-use Elementor\TemplateLibrary\Source_Local;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Kit_Library_Menu_Item implements Admin_Menu_Item {
-
-	public function is_visible() {
-		return true;
-	}
-
-	public function get_parent_slug() {
-		return Source_Local::ADMIN_MENU_SLUG;
-	}
-
-	public function get_label() {
-		return esc_html__( 'Kit Library', 'elementor' );
-	}
-
-	public function get_capability() {
-		return 'manage_options';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:daa66d940f79f43d4e059bbdc5c8396b47b477e2853971f5dfca52398d9abfa9
+size 570

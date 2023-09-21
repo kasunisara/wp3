@@ -1,18 +1,3 @@
-<?php
-namespace ElementorPro\Modules\WpCli;
-
-use Elementor\Modules\WpCli\Update as UpdateBase;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-/**
- * Elementor Page Builder Pro cli tools.
- */
-class Update extends UpdateBase {
-
-	protected function get_update_db_manager_class() {
-		return '\ElementorPro\Core\Upgrade\Manager';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:94fbe88ef3714ae82fab0573f363a1f047a7bae88538e05e4b2df281b0d689c9
+size 355
