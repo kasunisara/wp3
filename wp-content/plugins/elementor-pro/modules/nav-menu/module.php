@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\NavMenu;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Nav_Menu',
-		];
-	}
-
-	public function get_name() {
-		return 'nav-menu';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:558d70d3556fe86883705391e397f1ae15c7e7bb285cf10ff62b5d1b1b57acfa
+size 314

@@ -1,27 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Notes\Database\Migrations;
-
-use ElementorPro\Modules\Notes\Module;
-use ElementorPro\Core\Database\Base_Migration;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Add_Author_Display_Name extends Base_Migration {
-	/**
-	 * @inheritDoc
-	 */
-	public function up() {
-		$this->add_columns( Module::TABLE_NOTES, [
-			'author_display_name' => 'varchar(250) null comment "Save the author name when the author was deleted." AFTER `author_id`',
-		] );
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function down() {
-		$this->drop_columns( Module::TABLE_NOTES, [ 'author_display_name' ] );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:38a53a930c83aca7daed27ec0edba34cd368ef3ae8cd55a234a8f717a60f08da
+size 642

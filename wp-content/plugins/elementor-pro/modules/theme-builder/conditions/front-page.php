@@ -1,29 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeBuilder\Conditions;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Front_Page extends Condition_Base {
-
-	public static function get_type() {
-		return 'singular';
-	}
-
-	public static function get_priority() {
-		return 30;
-	}
-
-	public function get_name() {
-		return 'front_page';
-	}
-
-	public function get_label() {
-		return esc_html__( 'Front Page', 'elementor-pro' );
-	}
-
-	public function check( $args ) {
-		return is_front_page();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95521ca8b17e36564240e91413847faec9bcda87670049d95cee2810b8b90326
+size 508

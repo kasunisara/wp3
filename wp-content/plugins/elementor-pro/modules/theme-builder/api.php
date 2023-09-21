@@ -1,21 +1,3 @@
-<?php
-
-use ElementorPro\Modules\ThemeBuilder\Module as Theme_Builder_Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-function elementor_theme_do_location( $location ) {
-	/** @var Theme_Builder_Module $theme_builder_module */
-	$theme_builder_module = Theme_Builder_Module::instance();
-
-	return $theme_builder_module->get_locations_manager()->do_location( $location );
-}
-
-function elementor_location_exits( $location, $check_match = false ) {
-	/** @var Theme_Builder_Module $theme_builder_module */
-	$theme_builder_module = Theme_Builder_Module::instance();
-
-	return $theme_builder_module->get_locations_manager()->location_exits( $location, $check_match );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd0efbdbdf8f6a37d1b9758bde603bdb8e3bf1b59ec46c560b7c36440fadcd6a
+size 691

@@ -1,27 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Notes\Database\Migrations;
-
-use ElementorPro\Modules\Notes\Module;
-use ElementorPro\Core\Database\Base_Migration;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Add_Route_Post_Id extends Base_Migration {
-	/**
-	 * @inheritDoc
-	 */
-	public function up() {
-		$this->add_columns( Module::TABLE_NOTES, [
-			'route_post_id' => 'bigint(20) unsigned null comment "The post id of the route that the note was created on." AFTER `route_title`',
-		] );
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function down() {
-		$this->drop_columns( Module::TABLE_NOTES, [ 'route_post_id' ] );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c20259a8ee1e3311b79b9afc0797eb72a05666ca5dda8fa55dcacdf1b7a00e5
+size 638

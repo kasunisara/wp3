@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Slides;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_name() {
-		return 'slides';
-	}
-
-	public function get_widgets() {
-		return [
-			'Slides',
-		];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c76c0edbec586e8ec56475170c31cf6963f04b31f5071651798f89401accda8
+size 309

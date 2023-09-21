@@ -1,32 +1,3 @@
-<?php
-
-namespace ElementorPro\Modules\Popup\AdminMenuItems;
-
-use Elementor\Core\Admin\Menu\Interfaces\Admin_Menu_Item;
-use Elementor\TemplateLibrary\Source_Local;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Popups_Menu_Item implements Admin_Menu_Item {
-	public function get_capability() {
-		return 'publish_posts';
-	}
-
-	public function get_label() {
-		return esc_html__( 'Popups', 'elementor-pro' );
-	}
-
-	public function get_parent_slug() {
-		return Source_Local::ADMIN_MENU_SLUG;
-	}
-
-	public function get_position() {
-		return null;
-	}
-
-	public function is_visible() {
-		return true;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96e4d093e7163b3e440e940a7f0cf24cb0b946cf47dac6f339628bb2f481f6a5
+size 624

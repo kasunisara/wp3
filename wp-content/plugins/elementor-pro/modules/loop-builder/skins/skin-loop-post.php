@@ -1,19 +1,3 @@
-<?php
-namespace ElementorPro\Modules\LoopBuilder\Skins;
-
-use ElementorPro\Modules\LoopBuilder\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Skin_Loop_Post extends Skin_Loop_Base {
-
-	public function get_id() {
-		return Module::LOOP_POST_SKIN_ID;
-	}
-
-	public function get_title() {
-		return esc_html__( 'Posts', 'elementor-pro' );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e47435011c59b18b5ac78f380aa725df2e90abddbaca939b69697f86ef6306c
+size 374

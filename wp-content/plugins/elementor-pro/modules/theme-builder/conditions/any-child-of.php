@@ -1,28 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeBuilder\Conditions;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Any_Child_Of extends Child_Of {
-
-	public function get_name() {
-		return 'any_child_of';
-	}
-
-	public function get_label() {
-		return esc_html__( 'Any Child Of', 'elementor-pro' );
-	}
-
-	public function check( $args ) {
-		if ( ! is_singular() ) {
-			return false;
-		}
-
-		$id = (int) $args['id'];
-		$parents = get_post_ancestors( get_the_ID() );
-
-		return ( ( 0 === $id && ! empty( $parents ) ) || in_array( $id, $parents ) );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8826ae0d08e31692b59c339281efb86c3f436d2a4688e82b255496290e5d397d
+size 568

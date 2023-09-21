@@ -1,31 +1,3 @@
-<?php
-
-namespace ElementorPro\Modules\Notes;
-
-use ElementorPro\Modules\Notes\User\Capabilities;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Admin_Bar {
-
-	/**
-	 * Register actions and hooks.
-	 *
-	 * @return void
-	 */
-	public function register() {
-		add_action( 'admin_bar_menu', function ( \WP_Admin_Bar $wp_admin_bar ) {
-			if ( is_admin() || ! current_user_can( Capabilities::READ_NOTES ) ) {
-				return;
-			}
-
-			$wp_admin_bar->add_node( [
-				'id' => 'elementor_notes',
-				'title' => esc_html__( 'Notes', 'elementor-pro' ),
-				'href' => '#', // Click event is handled by JS.
-			] );
-		}, 200 ); // Before "Elementor Debugger".
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e943319b9eb423f958911132871a82e2a13dff9170f05769b34e71b5d401089b
+size 672

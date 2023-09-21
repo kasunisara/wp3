@@ -1,31 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeBuilder\AdminMenuItems;
-
-use Elementor\Core\Admin\Menu\Interfaces\Admin_Menu_Item;
-use Elementor\TemplateLibrary\Source_Local;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Theme_Builder_Menu_Item implements Admin_Menu_Item {
-	public function get_capability() {
-		return 'publish_posts';
-	}
-
-	public function get_label() {
-		return esc_html__( 'Theme Builder', 'elementor-pro' );
-	}
-
-	public function get_parent_slug() {
-		return Source_Local::ADMIN_MENU_SLUG;
-	}
-
-	public function is_visible() {
-		return true;
-	}
-
-	public function get_position() {
-		return null;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:744b0e3f54e1f6501b98f16145f4225c9670df063bb66c0f238ae86bc9b977a2
+size 645

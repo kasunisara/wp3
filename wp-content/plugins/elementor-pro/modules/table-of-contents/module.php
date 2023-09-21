@@ -1,31 +1,3 @@
-<?php
-namespace ElementorPro\Modules\TableOfContents;
-
-use ElementorPro\Base\Module_Base;
-use ElementorPro\Plugin;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Table_Of_Contents',
-		];
-	}
-
-	public function get_name() {
-		return 'table-of-contents';
-	}
-
-	/**
-	 * @deprecated 3.1.0
-	 */
-	public function localize_settings() {
-		Plugin::elementor()->modules_manager->get_modules( 'dev-tools' )->deprecation->deprecated_function( __METHOD__, '3.1.0' );
-
-		return [];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e151a0daad517f48fa8afcdf20848c5dc3fe5bc49e121de79a315f5bb2a57d4
+size 579

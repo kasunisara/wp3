@@ -1,27 +1,3 @@
-<?php
-namespace ElementorPro\Modules\QueryControl\Controls;
-
-use Elementor\Control_Select2;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Query extends Control_Select2 {
-
-	public function get_type() {
-		return 'query';
-	}
-
-	/**
-	 * 'query' can be used for passing query args in the structure and format used by WP_Query.
-	 * @return array
-	 */
-	protected function get_default_settings() {
-		return array_merge(
-			parent::get_default_settings(), [
-				'query' => '',
-			]
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:886417a06bf3d47b4268681a1d118e98ea25ed4d4e98df8bbcda32a94b9d238a
+size 514

@@ -1,27 +1,3 @@
-<?php
-namespace ElementorPro\Modules\LoopBuilder\Files\Css;
-
-use Elementor\Core\Files\CSS\Post_Preview;
-use ElementorPro\Plugin;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Loop_Preview extends Post_Preview {
-
-	use Loop_Css_Trait;
-
-	/**
-	 * Get CSS file name.
-	 *
-	 * Retrieve the CSS file name.
-	 *
-	 * @access public
-	 *
-	 * @return string CSS file name.
-	 */
-	public function get_name() {
-		return 'loop';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b08013de7630ceda74e7ccae3470291f0a4d6e33309f3ef6e4f419424e31a34e
+size 448

@@ -1,27 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeBuilder\Classes;
-
-use Elementor\Controls_Stack;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Template_Conditions extends Controls_Stack {
-
-	public function get_name() {
-		return 'template-conditions';
-	}
-
-	protected function register_controls() {
-		parent::register_controls();
-
-		$this->add_control(
-			'conditions',
-			[
-				'section' => 'settings',
-				'type' => Conditions_Repeater::CONTROL_TYPE,
-			]
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a6c93f124b69434ff64d38ce48315d456e396045206caa1b5c0a78559cf5cb6
+size 491

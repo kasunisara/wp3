@@ -1,34 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeBuilder\Conditions;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class General extends Condition_Base {
-
-	protected $sub_conditions = [
-		'archive',
-		'singular',
-	];
-
-	public static function get_type() {
-		return 'general';
-	}
-
-	public function get_name() {
-		return 'general';
-	}
-
-	public function get_label() {
-		return esc_html__( 'General', 'elementor-pro' );
-	}
-
-	public function get_all_label() {
-		return esc_html__( 'Entire Site', 'elementor-pro' );
-	}
-
-	public function check( $args ) {
-		return true;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:83c4ccf4788796f47aa2a5904301ee81d5935e6c418d008f4b5b58e3fc87c289
+size 586

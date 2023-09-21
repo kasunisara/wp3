@@ -1,29 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeBuilder\Conditions;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Not_Found404 extends Condition_Base {
-
-	public static function get_type() {
-		return 'singular';
-	}
-
-	public static function get_priority() {
-		return 20;
-	}
-
-	public function get_name() {
-		return 'not_found404';
-	}
-
-	public function get_label() {
-		return esc_html__( '404 Page', 'elementor-pro' );
-	}
-
-	public function check( $args ) {
-		return is_404();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2604205084b7c1d69860b3ec688173659ee73229d8bd063cd011ac75c0579c56
+size 503

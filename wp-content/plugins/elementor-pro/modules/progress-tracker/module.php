@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ProgressTracker;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'ProgressTracker',
-		];
-	}
-
-	public function get_name() {
-		return 'progress-tracker';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fad2b8b29411aed3d05c87b28dccb4ebd24c5a610be3597af34c00e73bd27180
+size 337

@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Hotspot;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Hotspot',
-		];
-	}
-
-	public function get_name() {
-		return 'hotspot';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4cac490cb1592adb1bd870d129b69fb24930349af297bd92744bebdeac24bcd
+size 312
