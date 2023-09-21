@@ -1,31 +1,3 @@
-<?php
-
-namespace ElementorPro\Modules\Gallery;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-	/**
-	 * Get module name.
-	 *
-	 * Retrieve the module name.
-	 *
-	 * @since  2.7.0
-	 * @access public
-	 *
-	 * @return string Module name.
-	 */
-	public function get_name() {
-		return 'gallery';
-	}
-
-	public function get_widgets() {
-		return [
-			'gallery',
-		];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:47a42b09086f79ddb709c91cfae4cbe0debf372172f7e1e05d667a40fa52546a
+size 454

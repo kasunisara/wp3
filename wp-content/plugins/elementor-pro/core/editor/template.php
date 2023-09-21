@@ -1,16 +1,3 @@
-<?php
-
-use ElementorPro\License\Admin as LicenseAdmin;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-?>
-<script type="text/template" id="tmpl-elementor-pro-template-library-activate-license-button">
-	<a class="elementor-template-library-template-action elementor-button go-pro" href="<?php
-	// PHPCS - the function LicenseAdmin::get_url() is safe.
-	echo LicenseAdmin::get_url(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>" target="_blank">
-		<i class="eicon-external-link-square"></i>
-		<span class="elementor-button-title"><?php echo esc_html__( 'Activate License', 'elementor-pro' ); ?></span>
-	</a>
-</script>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2de74dd636ae29806a65a29815b52925f4b7838f51d79106dcadd1f1735ae03b
+size 662

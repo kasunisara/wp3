@@ -1,25 +1,3 @@
-<?php
-namespace ElementorPro\Core\Admin;
-
-use ElementorPro\License\API;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Canary_Deployment extends \Elementor\Core\Admin\Canary_Deployment {
-
-	const CURRENT_VERSION = ELEMENTOR_PRO_VERSION;
-	const PLUGIN_BASE = ELEMENTOR_PRO_PLUGIN_BASE;
-
-	protected function get_canary_deployment_remote_info( $force ) {
-		$version_info = API::get_version( false );
-		$canary_info = [];
-
-		if ( ! is_wp_error( $version_info ) && ! empty( $version_info['canary_deployment'] ) ) {
-			$canary_info = $version_info['canary_deployment'];
-		}
-
-		return $canary_info;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a78cc311f9a661cf0ee455cc2e96d2ef603960bad8c075850d11b19aa250b7e
+size 628

@@ -1,25 +1,3 @@
-<?php
-namespace ElementorPro\Core\Compatibility;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Compatibility {
-
-	public static function register_actions() {
-		add_action( 'init', [ __CLASS__, 'on_init' ] );
-	}
-
-	public static function on_init() {
-		static::translate_press();
-	}
-
-	private static function translate_press() {
-		if ( ! class_exists( 'TRP_Translate_Press' ) ) {
-			return;
-		}
-
-		add_filter( 'elementor_pro/license/api/use_home_url', '__return_false' );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c71d88dd49fc0096b7b48651bf287b2ebf712bd4937972f0447dc8ffbbf4551f
+size 505

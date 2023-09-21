@@ -1,35 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Forms\Submissions\Data\Endpoints;
-
-use Elementor\Data\Base\Endpoint;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Forms_Index extends Endpoint {
-	public function get_name() {
-		return 'index';
-	}
-
-	protected function register() {
-		$this->register_route(
-			'',
-			\WP_REST_Server::READABLE,
-			function ( $request ) {
-				return $this->base_callback( \WP_REST_Server::READABLE, $request, true );
-			},
-			[
-				'context' => [
-					'description' => 'Scope under which the request is made, determines fields present in response. (only "options" available for now)',
-					'type' => 'string',
-					'enum' => [
-						'options',
-					],
-					'default' => 'options',
-					'required' => false,
-				],
-			]
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f9fba09f83a9c7efca8bbc6bb7c38b48425203f497d2772673f87101f93cde7
+size 780

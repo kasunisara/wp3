@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\AnimatedHeadline;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Animated_Headline',
-		];
-	}
-
-	public function get_name() {
-		return 'animated-headline';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0b035f5c28e0be8fe55d8833936cfa4b7d868d62095da685b660c781a748318
+size 341

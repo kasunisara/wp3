@@ -1,23 +1,3 @@
-<?php
-namespace ElementorPro\Core\App\Modules\SiteEditor\Data\Endpoints;
-
-use ElementorPro\Modules\ThemeBuilder\Module as ThemeBuilderModule;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Conditions_Config extends Base_Endpoint {
-	/**
-	 * @return string
-	 */
-	public function get_name() {
-		return 'conditions-config';
-	}
-
-	public function get_items( $request ) {
-		$conditions_manager = ThemeBuilderModule::instance()->get_conditions_manager();
-
-		return $conditions_manager->get_conditions_config();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af5b6136db34c194a22af8daf6e50c349da91935ea37416bc39b095cfcbb6447
+size 540

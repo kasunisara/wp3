@@ -1,18 +1,3 @@
-<?php
-
-namespace ElementorPro\Core\Integrations\Exceptions;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Action_Validation_Failed_Exception extends Exception_Base {
-
-	protected function format_message( $message ) {
-		return sprintf(
-			'Action `%s` failed validation: %s',
-			$this->action,
-			$message
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a19825ea708d84e8b02a607844e740359e7be5eef50ac0c607a9be6c0a6b3047
+size 346
