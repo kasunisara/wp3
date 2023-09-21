@@ -1,13 +1,3 @@
-<?php
-/**
- * Updates network administration panel.
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.1.0
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/update-core.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4f2dc94deabb61bce2fd6bb9885f1e9a6cd64fadcdff6cbc88b12948a41ed3b
+size 253

@@ -1,13 +1,3 @@
-<?php
-/**
- * Edit user network administration panel.
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.1.0
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/user-edit.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:47e0065e0b9bd82fbe2186a92e9709464feb02ad6b6c45d7bf0ec271ed7c7ddf
+size 253

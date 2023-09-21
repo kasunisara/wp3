@@ -1,13 +1,3 @@
-<?php
-/**
- * Network Credits administration panel.
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.4.0
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/credits.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a59596b3c3a958ce190163390b66dd753e6849774e98463a12d0c115aa9efbd
+size 249

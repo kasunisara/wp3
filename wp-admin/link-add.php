@@ -1,32 +1,3 @@
-<?php
-/**
- * Add Link Administration Screen.
- *
- * @package WordPress
- * @subpackage Administration
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-if ( ! current_user_can( 'manage_links' ) ) {
-	wp_die( __( 'Sorry, you are not allowed to add links to this site.' ) );
-}
-
-// Used in the HTML title tag.
-$title       = __( 'Add New Link' );
-$parent_file = 'link-manager.php';
-
-wp_reset_vars( array( 'action', 'cat_id', 'link_id' ) );
-
-wp_enqueue_script( 'link' );
-wp_enqueue_script( 'xfn' );
-
-if ( wp_is_mobile() ) {
-	wp_enqueue_script( 'jquery-touch-punch' );
-}
-
-$link = get_default_link_to_edit();
-require ABSPATH . 'wp-admin/edit-link-form.php';
-
-require_once ABSPATH . 'wp-admin/admin-footer.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:714050e0ba00fd788599122a8a4a0cb5a3e7b7ebd320cae868db31752b700e9a
+size 742

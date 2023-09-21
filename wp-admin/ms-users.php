@@ -1,13 +1,3 @@
-<?php
-/**
- * Multisite users administration panel.
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.0.0
- */
-
-require_once __DIR__ . '/admin.php';
-
-wp_redirect( network_admin_url( 'users.php' ) );
-exit;
+version https://git-lfs.github.com/spec/v1
+oid sha256:003e73c9c3f65667cf2182ef0e106fc137625f8ff888661a92156d2e9a76f7f1
+size 215

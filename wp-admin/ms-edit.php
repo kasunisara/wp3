@@ -1,13 +1,3 @@
-<?php
-/**
- * Action handler for Multisite administration panels.
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.0.0
- */
-
-require_once __DIR__ . '/admin.php';
-
-wp_redirect( network_admin_url() );
-exit;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5d26edf1e869711c7a10128e3a40a44c53c1a6a0a7e1558a20d3f6172ff5fc0
+size 216

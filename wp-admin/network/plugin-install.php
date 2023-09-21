@@ -1,17 +1,3 @@
-<?php
-/**
- * Install plugin network administration panel.
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.1.0
- */
-
-if ( isset( $_GET['tab'] ) && ( 'plugin-information' === $_GET['tab'] ) ) {
-	define( 'IFRAME_REQUEST', true );
-}
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/plugin-install.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c5442eeefff8dcb3baed97c9ba40a8fe1a2346c50fbbe0bcab38274ce0ed500
+size 377

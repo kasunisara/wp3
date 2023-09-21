@@ -1,35 +1,3 @@
-<?php
-/**
- * Media management action handler.
- *
- * This file is deprecated, use 'wp-admin/upload.php' instead.
- *
- * @deprecated 6.3.0
- * @package WordPress
- * @subpackage Administration
- */
-
-/** Load WordPress Administration Bootstrap. */
-require_once __DIR__ . '/admin.php';
-
-$parent_file  = 'upload.php';
-$submenu_file = 'upload.php';
-
-wp_reset_vars( array( 'action' ) );
-
-switch ( $action ) {
-	case 'editattachment':
-	case 'edit':
-		if ( empty( $_GET['attachment_id'] ) ) {
-			wp_redirect( admin_url( 'upload.php?error=deprecated' ) );
-			exit;
-		}
-		$att_id = (int) $_GET['attachment_id'];
-
-		wp_redirect( admin_url( "upload.php?item={$att_id}&error=deprecated" ) );
-		exit;
-
-	default:
-		wp_redirect( admin_url( 'upload.php?error=deprecated' ) );
-		exit;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c130eaf7ac21d7f88fffd14845ce5f7931595323076ec9276a1712129ac2c0d2
+size 763

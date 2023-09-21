@@ -1,13 +1,3 @@
-<?php
-/**
- * Network Setup administration panel.
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.1.0
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/network.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8f346abe6de644f5f2bb6188448840aa4958f181a90ed4ce6e77064a607f06b
+size 247
