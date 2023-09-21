@@ -1,16 +1,3 @@
-<?php ob_start(); ?>
-	<fieldset class="container-<?php echo $this->get_id(); ?>"></fieldset>
-<?php $html = ob_get_clean(); ?>
-
-<?php if ( ! empty( $_GET['tag_ID'] ) ): ?>
-	<tr class="carbon-table-row">
-		<td></td>
-		<td>
-			<?php echo $html; ?>
-		</td>
-	</tr>
-<?php else: ?>
-	<div class="form-field">
-		<?php echo $html; ?>
-	</div>
-<?php endif; ?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e183d3a0f4450a2ab6afed0100d249db2e49fad3dbcd916f34d40fc2f34915b9
+size 348

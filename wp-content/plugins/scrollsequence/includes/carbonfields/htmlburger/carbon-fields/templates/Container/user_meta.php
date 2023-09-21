@@ -1,12 +1,3 @@
-<h2><?php echo $this->title; ?></h2>
-
-<table class="form-table">
-	<tbody>
-		<tr>
-			<th></th>
-			<td>
-				<fieldset class="container-<?php echo $this->get_id(); ?>" data-profile-role="<?php echo $profile_role ?>"></fieldset>
-			</td>
-		</tr>
-	</tbody>
-</table>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a2eed91de53783f385c2d53ad17f045d79e0202e5e3ed4f5ddf5ac3df7325f6
+size 261

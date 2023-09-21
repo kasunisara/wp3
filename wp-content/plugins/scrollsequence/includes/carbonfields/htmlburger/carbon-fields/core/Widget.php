@@ -1,13 +1,3 @@
-<?php
-
-namespace Carbon_Fields;
-
-use Carbon_Fields\Widget\Widget as Base_Widget;
-
-/**
- * Widget proxy factory class.
- * Used for shorter namespace access when creating a widget.
- */
-class Widget extends Base_Widget {
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0db3e2e62f380fa7d4934bd7989fba9e9380bd915dd9abdc5ea7a1321f24cac5
+size 220

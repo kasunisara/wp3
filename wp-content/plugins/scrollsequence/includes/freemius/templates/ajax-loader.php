@@ -1,6 +1,3 @@
-<?php
-    if ( ! defined( 'ABSPATH' ) ) {
-        exit;
-    }
-?>
-<div class="fs-ajax-loader" style="display: none"><?php for ( $i = 1; $i <= 8; $i ++ ) : ?><div class="fs-ajax-loader-bar fs-ajax-loader-bar-<?php echo $i ?>"></div><?php endfor ?></div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8dc4887d9b97b282dc08ec6aedada447bbabb42cacc82b93f81264362c42383b
+size 252

@@ -1,34 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Helper;
-
-/**
- * Color functions
- */
-class Color {
-	/**
-	 * Converts a hexadecimal color into it's RGBA components
-	 * Accepts hex with and without alpha: #112233, #112233FF
-	 * Accepts hex with and without a leading # sign
-	 *
-	 * @param  string $hex
-	 * @return array
-	 */
-	public static function hex_to_rgba( $hex ) {
-		$hex = str_replace( '#', '', $hex );
-		$hex = strlen( $hex ) > 6 ? $hex : $hex . 'FF';
-
-		$int = hexdec( $hex );
-		$red = ( $int >> 24 ) & 255;
-		$green = ( $int >> 16 ) & 255;
-		$blue = ( $int >> 8 ) & 255;
-		$alpha = floatval( $int & 255 ) / 255;
-
-		return array(
-			'red' => $red,
-			'green' => $green,
-			'blue' => $blue,
-			'alpha' => $alpha,
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:479b9dbb0dfd04d5786e92ed85adc93bbb0dfb32315ad2dd5bdeb396446db63b
+size 711

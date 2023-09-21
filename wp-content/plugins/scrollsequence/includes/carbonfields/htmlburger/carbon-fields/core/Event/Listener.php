@@ -1,34 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Event;
-
-interface Listener {
-
-	/**
-	 * Get the listener's callable
-	 *
-	 * @return callable
-	 */
-	public function get_callable();
-
-	/**
-	 * Set the listener's callable
-	 *
-	 * @param callable $callable
-	 */
-	public function set_callable( $callable );
-
-	/**
-	 * Get if the listener is valid
-	 *
-	 * @return boolean
-	 */
-	public function is_valid();
-
-	/**
-	 * Notify the listener that the event has been broadcasted
-	 *
-	 * @return mixed
-	 */
-	public function notify();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c7bebb5f3da3ce45daa2067c23f9bc506d2d42439a308e95df57e992867ca87
+size 500

@@ -1,32 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Datastore;
-
-use Carbon_Fields\Field\Field;
-
-/**
- * Theme options datastore class.
- */
-class Network_Datastore extends Meta_Datastore {
-	/**
-	 * {@inheritDoc}
-	 */
-	public function get_meta_type() {
-		return 'site';
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function get_table_name() {
-		global $wpdb;
-		return $wpdb->sitemeta;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function get_table_field_name() {
-		return 'site_id';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4da07d22facbd9a3a6c5db0e343ba02d2b09cb4a3884b5ea30441a2d1a11711c
+size 455

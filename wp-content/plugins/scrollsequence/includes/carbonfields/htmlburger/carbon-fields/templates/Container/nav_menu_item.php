@@ -1,3 +1,3 @@
-<div class="description description-wide" data-id="<?php echo $this->get_id(); ?>">
-	<fieldset class="container-<?php echo $this->get_id(); ?>" data-json="<?php echo urlencode( json_encode( $this->to_json( false ) ) ); ?>"></fieldset>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d0c6a9e3225e942379d2b9da85f83ad40499fcf810f9e637b775b18be22007c
+size 242

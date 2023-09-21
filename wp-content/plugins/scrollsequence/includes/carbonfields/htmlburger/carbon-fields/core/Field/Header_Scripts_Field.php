@@ -1,22 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Field;
-
-/**
- * Header scripts field class.
- * Intended only for use in theme options container.
- */
-class Header_Scripts_Field extends Scripts_Field {
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $hook_name = 'wp_head';
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected function get_default_help_text() {
-		return __( 'If you need to add scripts to your header, you should enter them here.', 'carbon-fields' );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2f743c3820d6b3beccdd07ad511f70baca73d3ccce43c65a113529856b77c0a
+size 432

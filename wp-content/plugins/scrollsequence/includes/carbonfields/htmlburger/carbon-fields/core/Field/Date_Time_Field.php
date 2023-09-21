@@ -1,33 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Field;
-
-/**
- * Date and time picker field class.
- */
-class Date_Time_Field extends Time_Field {
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $picker_options = array(
-		'allowInput' => true,
-		'enableTime' => true,
-		'enableSeconds' => true,
-	);
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $storage_format = 'Y-m-d H:i:s';
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $input_format_php = 'Y-m-d g:i:s A';
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $input_format_js = 'Y-m-d h:i:S K';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b53bf9cca3f59f23bdebe798739d65e768a03b8f655408b492ac6ef34471a392
+size 499
