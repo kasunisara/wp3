@@ -8,3 +8,9 @@ wp-content/uploads/simply-static/temp-files/simply-static-1-1695300934/wp-conten
 *.png
 *.js
 *.txt
+*.gif
+*.svg
+*.jpg
+*.php
+*.eot
+*.ttf
