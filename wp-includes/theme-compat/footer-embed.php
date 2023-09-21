@@ -1,21 +1,3 @@
-<?php
-/**
- * Contains the post embed footer template
- *
- * When a post is embedded in an iframe, this file is used to create the footer output
- * if the active theme does not include a footer-embed.php template.
- *
- * @package WordPress
- * @subpackage Theme_Compat
- * @since 4.5.0
- */
-
-/**
- * Prints scripts or data before the closing body tag in the embed template.
- *
- * @since 4.4.0
- */
-do_action( 'embed_footer' );
-?>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a24de92c8b23fda7b49b45087f1c59538715ed7a062f3fac0101d854cb3464ad
+size 438

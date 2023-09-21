@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 402 Payment Required responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 402 Payment Required responses
- *
- * @package Requests\Exceptions
- */
-final class Status402 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 402;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Payment Required';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:43c6d092f6f3724fc02eaccc03dade942b6eb521ce1fc84747b557f51eea0133
+size 472

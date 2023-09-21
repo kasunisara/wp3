@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 403 Forbidden responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 403 Forbidden responses
- *
- * @package Requests\Exceptions
- */
-final class Status403 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 403;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Forbidden';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c54292073012c2a4ce855e3bfa6f24aa252e6dae9c27aacd352e408d1aa5409
+size 451

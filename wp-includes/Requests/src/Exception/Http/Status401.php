@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 401 Unauthorized responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 401 Unauthorized responses
- *
- * @package Requests\Exceptions
- */
-final class Status401 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 401;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Unauthorized';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e74cca6cef841a444c6fd368398e72615f3decb5dcd8e6b0f4152ce44a7a5fd3
+size 460

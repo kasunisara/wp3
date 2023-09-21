@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 501 Not Implemented responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 501 Not Implemented responses
- *
- * @package Requests\Exceptions
- */
-final class Status501 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 501;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Not Implemented';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:92db81b9a7cdb04693e6088b4532bde4a193c17cb749a6c244b53232a06966b3
+size 469

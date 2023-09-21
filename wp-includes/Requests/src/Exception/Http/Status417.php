@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 417 Expectation Failed responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 417 Expectation Failed responses
- *
- * @package Requests\Exceptions
- */
-final class Status417 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 417;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Expectation Failed';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4663bdded00c5d37fbd496ea9eb02fc7c9d269e025af5d51b6b787a522e0a0f6
+size 478

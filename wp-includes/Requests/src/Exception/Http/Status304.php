@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 304 Not Modified responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 304 Not Modified responses
- *
- * @package Requests\Exceptions
- */
-final class Status304 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 304;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Not Modified';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d542d2012c80a832a11179e9de5f2e579f91d99f4db8a4d79aab61ff7cd538e4
+size 460

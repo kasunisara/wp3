@@ -1,32 +1,3 @@
-<?php
-
-/**
- * IXR_Base64
- *
- * @package IXR
- * @since 1.5.0
- */
-class IXR_Base64
-{
-    var $data;
-
-	/**
-	 * PHP5 constructor.
-	 */
-    function __construct( $data )
-    {
-        $this->data = $data;
-    }
-
-	/**
-	 * PHP4 constructor.
-	 */
-	public function IXR_Base64( $data ) {
-		self::__construct( $data );
-	}
-
-    function getXml()
-    {
-        return '<base64>'.base64_encode($this->data).'</base64>';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6af5e8592b8fe0c367bc30a41ef22551bf4ae199496302d04885169b6c69525
+size 414

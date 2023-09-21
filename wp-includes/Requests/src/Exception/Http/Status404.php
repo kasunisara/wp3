@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 404 Not Found responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 404 Not Found responses
- *
- * @package Requests\Exceptions
- */
-final class Status404 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 404;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Not Found';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:699b6626f7d05cbf609a9b7d01190be70c8247eaf7ea0f9a76fb43e8a85a52a2
+size 451

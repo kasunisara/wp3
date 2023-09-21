@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 411 Length Required responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 411 Length Required responses
- *
- * @package Requests\Exceptions
- */
-final class Status411 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 411;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Length Required';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f48d82b8a6bbe29b5944b9ae43b86d2dfc9b00822786f72a03fd6b43675a744e
+size 469

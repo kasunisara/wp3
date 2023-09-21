@@ -1,11 +1,3 @@
-<?php
-/**
- * Locale API
- *
- * @package WordPress
- * @subpackage i18n
- * @since 1.2.0
- * @deprecated 4.7.0
- */
-
-_deprecated_file( basename( __FILE__ ), '4.7.0' );
+version https://git-lfs.github.com/spec/v1
+oid sha256:0226059f58e6c074af93d3c764d68303270a5b55c503ef83614fa70f953d2def
+size 162

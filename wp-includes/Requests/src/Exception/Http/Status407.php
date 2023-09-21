@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 407 Proxy Authentication Required responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 407 Proxy Authentication Required responses
- *
- * @package Requests\Exceptions
- */
-final class Status407 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 407;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Proxy Authentication Required';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f70a269a2fab6df136f81679e0c1acd404e114b729226ea6ee1e567c58d1b63b
+size 511

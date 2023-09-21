@@ -1,14 +1,3 @@
-<?php
-/**
- * Server-side rendering of the `core/page-list-item` block.
- *
- * @package WordPress
- */
-
-/**
- * Registers the `core/page-list-item` block on server.
- */
-function register_block_core_page_list_item() {
-	register_block_type_from_metadata( __DIR__ . '/page-list-item' );
-}
-add_action( 'init', 'register_block_core_page_list_item' );
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb197526e306993d4ed34f11e29e6111e774d53da5a42387f3ac1b293879335d
+size 342

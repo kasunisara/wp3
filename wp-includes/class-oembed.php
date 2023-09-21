@@ -1,15 +1,3 @@
-<?php
-/**
- * API for fetching the HTML to embed remote content based on a provided URL.
- *
- * This file is deprecated, use 'wp-includes/class-wp-oembed.php' instead.
- *
- * @deprecated 5.3.0
- * @package WordPress
- * @subpackage oEmbed
- */
-
-_deprecated_file( basename( __FILE__ ), '5.3.0', WPINC . '/class-wp-oembed.php' );
-
-/** WP_oEmbed class */
-require_once ABSPATH . WPINC . '/class-wp-oembed.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8fde550b396868e5ece83b7cdc0884a970e8104481b431d54df4559c615bf53
+size 401

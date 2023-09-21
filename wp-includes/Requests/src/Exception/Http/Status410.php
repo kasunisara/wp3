@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 410 Gone responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 410 Gone responses
- *
- * @package Requests\Exceptions
- */
-final class Status410 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 410;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Gone';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:74287f0d729910f25eb742ef2a528ff5fd34847c95f02139eef1fd66fd0564c8
+size 436

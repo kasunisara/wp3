@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 406 Not Acceptable responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 406 Not Acceptable responses
- *
- * @package Requests\Exceptions
- */
-final class Status406 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 406;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Not Acceptable';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a17029352c63b5ac0f3500d2c9ca1148ab9f29c981db5b9dc3948249b4de625
+size 466

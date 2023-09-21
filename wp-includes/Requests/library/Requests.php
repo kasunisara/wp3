@@ -1,12 +1,3 @@
-<?php
-/**
- * Loads the old Requests class file when the autoloader
- * references the original PSR-0 Requests class.
- *
- * @deprecated 6.2.0
- * @package WordPress
- * @subpackage Requests
- * @since 6.2.0
- */
-
-include_once ABSPATH . WPINC . '/class-requests.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:397c790baa73fc768dbe7a3c2473180d0468a4bfcd6b1f58ea1b6ff31eea2e39
+size 261

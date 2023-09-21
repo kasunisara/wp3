@@ -1,14 +1,3 @@
-<?php
-/**
- * Dependencies API: WP_Scripts class
- *
- * This file is deprecated, use 'wp-includes/class-wp-scripts.php' instead.
- *
- * @deprecated 6.1.0
- * @package WordPress
- */
-
-_deprecated_file( basename( __FILE__ ), '6.1.0', WPINC . '/class-wp-scripts.php' );
-
-/** WP_Scripts class */
-require_once ABSPATH . WPINC . '/class-wp-scripts.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:40f9b80530bc0e78638344db4c0d2e3ce1ea6165fd66c1a3e71eaee602934c6c
+size 343

@@ -1,14 +1,3 @@
-<?php
-/**
- * Deprecated. Use rss.php instead.
- *
- * @package WordPress
- * @deprecated 2.1.0
- */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit();
-}
-
-_deprecated_file( basename( __FILE__ ), '2.1.0', WPINC . '/rss.php' );
-require_once ABSPATH . WPINC . '/rss.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:831880b7e8d307ce67f19f7477f4de3c2ad19320d94246bba31c6b708ac3742f
+size 255

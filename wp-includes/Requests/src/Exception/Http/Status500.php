@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 500 Internal Server Error responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 500 Internal Server Error responses
- *
- * @package Requests\Exceptions
- */
-final class Status500 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 500;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Internal Server Error';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:22b93daa63b7a3c20c0aa5d4d6ebe5b5c717bc351c165adf02db0628418a49f0
+size 487

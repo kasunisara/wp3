@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 502 Bad Gateway responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 502 Bad Gateway responses
- *
- * @package Requests\Exceptions
- */
-final class Status502 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 502;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Bad Gateway';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cc5893df1b8a91a3911cc4307ce4cd584aed6c065502e1744c452a3200365b4
+size 457

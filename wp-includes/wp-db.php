@@ -1,17 +1,3 @@
-<?php
-/**
- * WordPress database access abstraction class.
- *
- * This file is deprecated, use 'wp-includes/class-wpdb.php' instead.
- *
- * @deprecated 6.1.0
- * @package WordPress
- */
-
-if ( function_exists( '_deprecated_file' ) ) {
-	// Note: WPINC may not be defined yet, so 'wp-includes' is used here.
-	_deprecated_file( basename( __FILE__ ), '6.1.0', 'wp-includes/class-wpdb.php' );
-}
-
-/** wpdb class */
-require_once __DIR__ . '/class-wpdb.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d82cf0ad6d04f044da36e20f724b314146edea68dc57f43334082a5ce4dd12e
+size 445

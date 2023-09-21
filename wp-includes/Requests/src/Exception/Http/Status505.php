@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 505 HTTP Version Not Supported responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 505 HTTP Version Not Supported responses
- *
- * @package Requests\Exceptions
- */
-final class Status505 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 505;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'HTTP Version Not Supported';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:181d699d679ae8619048865d1dc58222e0b725820bda79881f0ba00c361b2d84
+size 502

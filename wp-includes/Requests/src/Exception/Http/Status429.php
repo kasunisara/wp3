@@ -1,35 +1,3 @@
-<?php
-/**
- * Exception for 429 Too Many Requests responses
- *
- * @link https://tools.ietf.org/html/draft-nottingham-http-new-status-04
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 429 Too Many Requests responses
- *
- * @link https://tools.ietf.org/html/draft-nottingham-http-new-status-04
- *
- * @package Requests\Exceptions
- */
-final class Status429 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 429;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Too Many Requests';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48ecac2d984be99bc448d43c4e9bcf495c2a3ca0fa4659a7fdacc21d2ca91879
+size 627

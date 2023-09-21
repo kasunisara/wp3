@@ -1,35 +1,3 @@
-<?php
-/**
- * Exception for 418 I'm A Teapot responses
- *
- * @link https://tools.ietf.org/html/rfc2324
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 418 I'm A Teapot responses
- *
- * @link https://tools.ietf.org/html/rfc2324
- *
- * @package Requests\Exceptions
- */
-final class Status418 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 418;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = "I'm A Teapot";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d35d01decab8de5009630211257f4d3dfa910e28bbe137565546380819d3631f
+size 556

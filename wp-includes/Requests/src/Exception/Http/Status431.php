@@ -1,35 +1,3 @@
-<?php
-/**
- * Exception for 431 Request Header Fields Too Large responses
- *
- * @link https://tools.ietf.org/html/rfc6585
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 431 Request Header Fields Too Large responses
- *
- * @link https://tools.ietf.org/html/rfc6585
- *
- * @package Requests\Exceptions
- */
-final class Status431 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 431;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Request Header Fields Too Large';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0856154f2f7cb350baaa171e45c16300164fadd5ab846c6cde097b621d06e81
+size 613

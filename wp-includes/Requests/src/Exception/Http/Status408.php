@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 408 Request Timeout responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 408 Request Timeout responses
- *
- * @package Requests\Exceptions
- */
-final class Status408 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 408;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Request Timeout';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e31fc6ed62d86dd9bc9818b2953532c8f1ab552fe29e943260633a04caf97f8e
+size 469

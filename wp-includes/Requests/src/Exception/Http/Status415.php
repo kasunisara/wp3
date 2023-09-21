@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 415 Unsupported Media Type responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 415 Unsupported Media Type responses
- *
- * @package Requests\Exceptions
- */
-final class Status415 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 415;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Unsupported Media Type';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d37e1066f55b124202131f99cd1f1a6f0c652505ce8eccc3254e54afe45441b
+size 490

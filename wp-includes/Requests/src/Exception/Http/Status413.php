@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 413 Request Entity Too Large responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 413 Request Entity Too Large responses
- *
- * @package Requests\Exceptions
- */
-final class Status413 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 413;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Request Entity Too Large';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba21191df92298b3f5e696d5bd2304de126e7079a58aafc07abaf57f08e068b3
+size 496

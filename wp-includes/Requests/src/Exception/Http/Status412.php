@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 412 Precondition Failed responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 412 Precondition Failed responses
- *
- * @package Requests\Exceptions
- */
-final class Status412 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 412;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Precondition Failed';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9b3f2cc9e8bef48a7ec2eb3512e73aa4173d09ee8f836145ee4d4ffdb352dbe
+size 481

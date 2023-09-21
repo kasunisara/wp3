@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 416 Requested Range Not Satisfiable responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 416 Requested Range Not Satisfiable responses
- *
- * @package Requests\Exceptions
- */
-final class Status416 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 416;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Requested Range Not Satisfiable';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5431ab8de0fd2a9bf5dbd002d0b800917e0dfa8ddf76621b3539de69db5da62c
+size 517

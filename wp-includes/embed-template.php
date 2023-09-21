@@ -1,13 +1,3 @@
-<?php
-/**
- * Back-compat placeholder for the base embed template
- *
- * @package WordPress
- * @subpackage oEmbed
- * @since 4.4.0
- * @deprecated 4.5.0 Moved to wp-includes/theme-compat/embed.php
- */
-
-_deprecated_file( basename( __FILE__ ), '4.5.0', WPINC . '/theme-compat/embed.php' );
-
-require ABSPATH . WPINC . '/theme-compat/embed.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:5bedb63acacb3a3fa7c2d27a144ddc7b08ff84b00c84941b36911acedd33a5e8
+size 338

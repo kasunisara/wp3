@@ -1,14 +1,3 @@
-<?php
-/**
- * Dependencies API: WP_Styles class
- *
- * This file is deprecated, use 'wp-includes/class-wp-styles.php' instead.
- *
- * @deprecated 6.1.0
- * @package WordPress
- */
-
-_deprecated_file( basename( __FILE__ ), '6.1.0', WPINC . '/class-wp-styles.php' );
-
-/** WP_Styles class */
-require_once ABSPATH . WPINC . '/class-wp-styles.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6b986fd22a610e6f758b4e6bf845d3ad932d8324d0e260e3f8f8655ce54448b
+size 338

@@ -1,35 +1,3 @@
-<?php
-/**
- * Exception for 511 Network Authentication Required responses
- *
- * @link https://tools.ietf.org/html/rfc6585
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 511 Network Authentication Required responses
- *
- * @link https://tools.ietf.org/html/rfc6585
- *
- * @package Requests\Exceptions
- */
-final class Status511 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 511;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Network Authentication Required';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6969ddf7b24ed27cf8906e55d7f0e60417f08d942b8999f8bff43d0d72f73f66
+size 613

@@ -1,31 +1,3 @@
-<?php
-/**
- * Exception for 400 Bad Request responses
- *
- * @package Requests\Exceptions
- */
-
-namespace WpOrg\Requests\Exception\Http;
-
-use WpOrg\Requests\Exception\Http;
-
-/**
- * Exception for 400 Bad Request responses
- *
- * @package Requests\Exceptions
- */
-final class Status400 extends Http {
-	/**
-	 * HTTP status code
-	 *
-	 * @var integer
-	 */
-	protected $code = 400;
-
-	/**
-	 * Reason phrase
-	 *
-	 * @var string
-	 */
-	protected $reason = 'Bad Request';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:66c435f25e14672f05694e29369366bd250ed373527aaa36b7b3bf29ed1b1a89
+size 457

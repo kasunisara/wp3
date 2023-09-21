@@ -1,16 +1,3 @@
-<?php
-/**
- * Server-side rendering of the `core/query` block.
- *
- * @package WordPress
- */
-
-/**
- * Registers the `core/query` block on the server.
- */
-function register_block_core_query() {
-	register_block_type_from_metadata(
-		__DIR__ . '/query'
-	);
-}
-add_action( 'init', 'register_block_core_query' );
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5d69d7182fd30b879afd16ec9a5b4af30e79c06ea6af2e035822377e43d403e
+size 304
