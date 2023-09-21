@@ -1,18 +1,3 @@
-<?php
-/**
- * Show the appropriate content for the Gallery post format.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-// Print the 1st gallery found.
-if ( has_block( 'core/gallery', get_the_content() ) ) {
-
-	twenty_twenty_one_print_first_instance_of_block( 'core/gallery', get_the_content() );
-}
-
-the_excerpt();
+version https://git-lfs.github.com/spec/v1
+oid sha256:10d4eaf38d4c8211ec69b051e746bc182877a7c5bac5c2f749fc23c2f06ec1cb
+size 438

@@ -1,13 +1,3 @@
-<?php
-/**
- * Show the appropriate content for the Status post format.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-// Print the full content.
-the_content();
+version https://git-lfs.github.com/spec/v1
+oid sha256:32e1bee9e3bf2e4540a75e0fb2947185468f43f44754b27b3e7077c930514e42
+size 285

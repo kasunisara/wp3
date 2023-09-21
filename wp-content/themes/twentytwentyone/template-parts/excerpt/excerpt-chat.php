@@ -1,20 +1,3 @@
-<?php
-/**
- * Show the appropriate content for the Chat post format.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-// If there are paragraph blocks, print up to two.
-// Otherwise this is legacy content, so print the excerpt.
-if ( has_block( 'core/paragraph', get_the_content() ) ) {
-
-	twenty_twenty_one_print_first_instance_of_block( 'core/paragraph', get_the_content(), 2 );
-} else {
-
-	the_excerpt();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:236aa277866717b983d59125d3ee76e2545c591b0def50382cb05dfe9ce9d01a
+size 530

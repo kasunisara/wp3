@@ -1,13 +1,3 @@
-<?php
-/**
- * Divider with image and color (light) block pattern
- */
-return array(
-	'title'      => __( 'Divider with image and color (light)', 'twentytwentytwo' ),
-	'categories' => array( 'featured' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"1rem","right":"0px","bottom":"1rem","left":"0px"}}},"backgroundColor":"secondary"} -->
-					<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:1rem;padding-right:0px;padding-bottom:1rem;padding-left:0px"><!-- wp:image {"id":473,"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/divider-black.png" alt="" class="wp-image-473"/></figure>
-					<!-- /wp:image --></div>
-					<!-- /wp:group -->',
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2609646342ab1b1632d3eac0052ef3bebe0e3539152905f263e96e91633ca18
+size 851

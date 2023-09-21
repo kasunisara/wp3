@@ -1,23 +1,3 @@
-<?php
-/**
- * Show the appropriate content for the Video post format.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-$content = get_the_content();
-
-if ( has_block( 'core/video', $content ) ) {
-	twenty_twenty_one_print_first_instance_of_block( 'core/video', $content );
-} elseif ( has_block( 'core/embed', $content ) ) {
-	twenty_twenty_one_print_first_instance_of_block( 'core/embed', $content );
-} else {
-	twenty_twenty_one_print_first_instance_of_block( 'core-embed/*', $content );
-}
-
-// Add the excerpt.
-the_excerpt();
+version https://git-lfs.github.com/spec/v1
+oid sha256:34f4eca147c7e3a7f0a8e44de68d874d70a4a044ef6a44ea810d274fff6112eb
+size 646

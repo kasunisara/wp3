@@ -1,17 +1,3 @@
-<?php
-/**
- * Displays the footer widget area.
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-
-	<aside class="widget-area">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>
-	</aside><!-- .widget-area -->
-
-	<?php
-endif;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fad34a6c699f815857780e4bada606f20a8f7c6ec3c977d81ed52b7b1226a3f
+size 305

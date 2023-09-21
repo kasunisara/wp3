@@ -1,26 +1,3 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the body & html closing tags.
- *
- * @package HelloElementor
- */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'footer' ) ) {
-	if ( did_action( 'elementor/loaded' ) && hello_header_footer_experiment_active() ) {
-		get_template_part( 'template-parts/dynamic-footer' );
-	} else {
-		get_template_part( 'template-parts/footer' );
-	}
-}
-?>
-
-<?php wp_footer(); ?>
-
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4070534b0e230d314d350759c547c87546ef4a7d88f53507af3e5a5a41993ba3
+size 558

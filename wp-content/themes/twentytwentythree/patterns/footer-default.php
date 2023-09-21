@@ -1,28 +1,3 @@
-<?php
-/**
- * Title: Default Footer
- * Slug: twentytwentythree/footer-default
- * Categories: footer
- * Block Types: core/template-part/footer
- */
-?>
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
-	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40)">
-		<!-- wp:site-title {"level":0} /-->
-		<!-- wp:paragraph {"align":"right"} -->
-		<p class="has-text-align-right">
-		<?php
-		printf(
-			/* Translators: WordPress link. */
-			esc_html__( 'Proudly powered by %s', 'twentytwentythree' ),
-			'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentythree' ) ) . '" rel="nofollow">WordPress</a>'
-		)
-		?>
-		</p>
-		<!-- /wp:paragraph -->
-	</div>
-	<!-- /wp:group -->
-</div>
-<!-- /wp:group -->
+version https://git-lfs.github.com/spec/v1
+oid sha256:8243644f04def6bf765ee01b8cafb78afe60035f0e4c07d7d18b93a9b1e399d4
+size 921

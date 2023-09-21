@@ -1,15 +1,3 @@
-<?php
-/**
- * 404 content.
- */
-return array(
-	'title'    => __( '404 content', 'twentytwentytwo' ),
-	'inserter' => false,
-	'content'  => '<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(4rem, 40vw, 20rem)","fontWeight":"200","lineHeight":"1"}},"className":"has-text-align-center"} -->
-					<h2 class="has-text-align-center" style="font-size:clamp(4rem, 40vw, 20rem);font-weight:200;line-height:1">' . esc_html( _x( '404', 'Error code for a webpage that is not found.', 'twentytwentytwo' ) ) . '</h2>
-					<!-- /wp:heading -->
-					<!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center">' . esc_html__( 'This page could not be found. Maybe try a search?', 'twentytwentytwo' ) . '</p>
-					<!-- /wp:paragraph -->
-					<!-- wp:search {"label":"' . esc_html_x( 'Search', 'label', 'twentytwentytwo' ) . '","showLabel":false,"width":50,"widthUnit":"%","buttonText":"' . esc_html__( 'Search', 'twentytwentytwo' ) . '","buttonUseIcon":true,"align":"center"} /-->',
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9db1c66de69c64f16d2cd482559d4ddbe87172eb130d615271d7855ea87ab6c2
+size 993

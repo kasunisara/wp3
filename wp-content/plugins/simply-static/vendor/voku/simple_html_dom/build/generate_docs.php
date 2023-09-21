@@ -1,16 +1,3 @@
-<?php
-
-require __DIR__ . '/../vendor/autoload.php';
-require __DIR__ . '/vendor/autoload.php';
-
-$readmeText = (new \voku\PhpReadmeHelper\GenerateApi())->generate(
-    __DIR__ . '/../src/',
-    __DIR__ . '/docs/api.md',
-    [
-        \voku\helper\DomParserInterface::class,
-        \voku\helper\SimpleHtmlDomNodeInterface::class,
-        \voku\helper\SimpleHtmlDomInterface::class
-    ]
-);
-
-file_put_contents(__DIR__ . '/../README_API.md', $readmeText);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed67483616973bfaa4cbbbb9a7f9bb7f875f2f1082eadf4db42b306c9cb3deee
+size 452

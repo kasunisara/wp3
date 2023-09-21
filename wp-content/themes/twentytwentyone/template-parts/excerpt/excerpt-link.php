@@ -1,19 +1,3 @@
-<?php
-/**
- * Show the appropriate content for the Link post format.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-// Print the 1st instance of a paragraph block. If none is found, print the content.
-if ( has_block( 'core/paragraph', get_the_content() ) ) {
-
-	twenty_twenty_one_print_first_instance_of_block( 'core/paragraph', get_the_content() );
-} else {
-
-	the_content();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c536880eb6ebcab098f424aa8125200dc04c952d98608a88fe57ae624767c4c
+size 502

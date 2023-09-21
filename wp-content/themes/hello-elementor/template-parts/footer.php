@@ -1,27 +1,3 @@
-<?php
-/**
- * The template for displaying footer.
- *
- * @package HelloElementor
- */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-$footer_nav_menu = wp_nav_menu( [
-	'theme_location' => 'menu-2',
-	'fallback_cb' => false,
-	'echo' => false,
-] );
-?>
-<footer id="site-footer" class="site-footer" role="contentinfo">
-	<?php if ( $footer_nav_menu ) : ?>
-		<nav class="site-navigation">
-			<?php
-			// PHPCS - escaped by WordPress with "wp_nav_menu"
-			echo $footer_nav_menu; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-			?>
-		</nav>
-	<?php endif; ?>
-</footer>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9064b0ad291e699873586d1743666c252512f7231212fbe0b83a158a79c1cc1
+size 601

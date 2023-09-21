@@ -1,25 +1,3 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-get_header();
-
-/* Start the Loop */
-while ( have_posts() ) :
-	the_post();
-	get_template_part( 'template-parts/content/content-page' );
-
-	// If comments are open or there is at least one comment, load up the comment template.
-	if ( comments_open() || get_comments_number() ) {
-		comments_template();
-	}
-endwhile; // End of the loop.
-
-get_footer();
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1c3487aaf6a1f5e1c83a98bfbd627db6d3d957256a1258af2da7b3e867b55c3
+size 590
