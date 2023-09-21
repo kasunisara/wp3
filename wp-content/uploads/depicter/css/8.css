@@ -1,0 +1,67 @@
+
+.depicter-revert .depicter-8-element-20{
+	transform:rotate(30.985380748157deg);
+}
+.depicter-revert .depicter-8-element-19{
+	transform:rotate(6.6550174782873deg);
+}
+.depicter-revert .depicter-8-element-17{
+	transform:rotate(9.7099681041627deg);
+}
+.depicter-revert .depicter-8-element-15{
+	transform:rotate(7.0903310892751deg);
+}
+.depicter-revert .depicter-8-element-8{
+	transform:rotate(21.486476748233deg);
+}
+.depicter-revert .depicter-8-element-9{
+	transform:rotate(-1081.2665660205deg);
+}
+.depicter-revert .depicter-8-element-14{
+	transform:rotate(-11.499887963737deg) scaleX(-1);
+}
+.depicter-revert .depicter-8-section-1 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+.depicter-revert .depicter-8-element-27{
+	transform:rotate(-14.679927059636deg);
+}
+.depicter-revert .depicter-8-element-24{
+	transform:rotate(-12.811603062951deg) scaleX(-1);
+}
+.depicter-revert .depicter-8-element-25{
+	transform:rotate(-34.548165146665deg);
+}
+.depicter-revert .depicter-8-element-23{
+	transform:rotate(26.285070208876deg);
+}
+.depicter-revert .depicter-8-section-3 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+.depicter-revert .depicter-8-element-40{
+	transform:rotate(-27.880454222891deg);
+}
+.depicter-revert .depicter-8-element-37{
+	transform:rotate(4.4214599138809deg);
+}
+.depicter-revert .depicter-8-element-31{
+	transform:rotate(4.0116568673366deg);
+}
+.depicter-revert .depicter-8-element-30{
+	transform:rotate(8.303856129858deg);
+}
+.depicter-revert .depicter-8-section-6 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+.depicter-revert .depicter-8-section-6 .depicter-section-background::after{
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index:1;
+	background-color:rgba(0, 255, 2, 0.12);
+}
+

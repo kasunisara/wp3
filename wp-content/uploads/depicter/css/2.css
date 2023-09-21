@@ -1,0 +1,51 @@
+
+.depicter-revert .depicter-2-element-13{
+	font-size:87px;
+	color:#000000;
+	font-family:"Luxurious Script";
+	font-weight:400;
+	transform:rotate(0deg) scaleX(1) scaleY(1);
+	background-color:transparent;
+}
+.depicter-revert .depicter-2-element-12{
+	font-size:51px;
+	color:#000000;
+	font-family:"Luxurious Script";
+	font-weight:400;
+	transform:rotate(0deg) scaleX(1) scaleY(1);
+	background-color:transparent;
+}
+.depicter-revert .depicter-2-element-11{
+	font-size:132px;
+	font-family:"Luxurious Script";
+	font-weight:400;
+	transform:rotate(0deg) scaleX(1) scaleY(1);
+	background-color:transparent;
+}
+.depicter-revert .depicter-2-element-10{
+	background-color:transparent;
+}
+.depicter-revert .depicter-2-element-5{
+	transform:rotate(-21.560844545635deg);
+}
+.depicter-revert .depicter-2-element-3{
+	transform:rotate(-0.88663601815085deg);
+}
+.depicter-revert .depicter-2-section-1 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+.depicter-revert .depicter-2-element-9:not(.depicter-hover-off){
+	transition:all ease-out 0.3s;
+}
+.depicter-revert .depicter-2-element-9:not(.depicter-hover-off):hover {
+	filter:brightness(82%) contrast(144%) saturate(164%) blur(0px) hue-rotate(388deg);
+	box-shadow:24px 10px 25px 0px #000000;
+	transform:scale(1.36);
+}
+.depicter-revert .depicter-2-element-8:not(.depicter-hover-off):hover {
+	box-shadow:10px 10px 25px 0px #000;
+}
+.depicter-revert .depicter-2-section-7 .depicter-section-background{
+	background-color:#FFFFFF;
+}
+
