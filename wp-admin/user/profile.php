@@ -1,13 +1,3 @@
-<?php
-/**
- * User Profile Administration Screen.
- *
- * @package WordPress
- * @subpackage Administration
- * @since 3.1.0
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/profile.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:e29a9a480e50e8008741e8734ac7f2c7be23e9a8f92136d59775f17c257f89a6
+size 252

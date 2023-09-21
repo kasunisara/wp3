@@ -1,13 +1,3 @@
-<?php
-/**
- * Edit user administration panel.
- *
- * @package WordPress
- * @subpackage Administration
- * @since 3.1.0
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/user-edit.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5b8cee3709facd536ce37e360f0ec61b9de951bc74ce85b83ca902b0b9db75d
+size 250

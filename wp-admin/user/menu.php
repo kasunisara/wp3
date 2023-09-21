@@ -1,22 +1,3 @@
-<?php
-/**
- * Build User Administration Menu.
- *
- * @package WordPress
- * @subpackage Administration
- * @since 3.1.0
- */
-
-$menu[2] = array( __( 'Dashboard' ), 'exist', 'index.php', '', 'menu-top menu-top-first menu-icon-dashboard', 'menu-dashboard', 'dashicons-dashboard' );
-
-$menu[4] = array( '', 'exist', 'separator1', '', 'wp-menu-separator' );
-
-$menu[70] = array( __( 'Profile' ), 'exist', 'profile.php', '', 'menu-top menu-icon-users', 'menu-users', 'dashicons-admin-users' );
-
-$menu[99] = array( '', 'exist', 'separator-last', '', 'wp-menu-separator' );
-
-$_wp_real_parent_file['users.php'] = 'profile.php';
-$compat                            = array();
-$submenu                           = array();
-
-require_once ABSPATH . 'wp-admin/includes/menu.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fc36a86c3da2d2c0d3e4c8aeac3c097872ba5895142069153289eb7e9a2e6ba
+size 758

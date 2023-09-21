@@ -1,13 +1,3 @@
-<?php
-/**
- * User Dashboard Privacy administration panel.
- *
- * @package WordPress
- * @subpackage Administration
- * @since 4.9.0
- */
-
-/** Load WordPress Administration Bootstrap */
-require_once __DIR__ . '/admin.php';
-
-require ABSPATH . 'wp-admin/privacy.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:eeb547f3d29435971119bcdf0667d860f709687e7064593311a9453198e39e72
+size 261

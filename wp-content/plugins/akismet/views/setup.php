@@ -1,4 +1,3 @@
-<div class="akismet-setup-instructions">
-	<p><?php esc_html_e( 'Set up your Akismet account to enable spam filtering on this site.', 'akismet' ); ?></p>
-	<?php Akismet::view( 'get', array( 'text' => __( 'Set up your Akismet account' , 'akismet' ), 'classes' => array( 'akismet-button', 'akismet-is-primary' ) ) ); ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd6d25294e6a5cb06f4e76ac5d238533cd839abbc7c729967c35637a1b0ffedf
+size 324

@@ -1,11 +1,3 @@
-<div class="akismet-box">
-	<h2><?php esc_html_e( 'Manual Configuration', 'akismet' ); ?></h2>
-	<p>
-		<?php
-
-		/* translators: %s is the wp-config.php file */
-		echo sprintf( esc_html__( 'An Akismet API key has been defined in the %s file for this site.', 'akismet' ), '<code>wp-config.php</code>' );
-
-		?>
-	</p>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8fa82b230a77cb2fa2e8b62b28b098016d84e3b02325e1341967ca8b5b90ada
+size 318

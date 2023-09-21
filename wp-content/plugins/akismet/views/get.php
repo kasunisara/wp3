@@ -1,18 +1,3 @@
-<?php
-
-//phpcs:disable VariableAnalysis
-// There are "undefined" variables here because they're defined in the code that includes this file as a template.
-
-$submit_classes_attr = 'akismet-button';
-
-if ( isset( $classes ) && ( is_countable( $classes ) ? count( $classes ) : 0 ) > 0 ) {
-	$submit_classes_attr = implode( ' ', $classes );
-}
-?>
-
-<form name="akismet_activate" action="https://akismet.com/get/" method="POST" target="_blank">
-	<input type="hidden" name="passback_url" value="<?php echo esc_url( Akismet_Admin::get_page_url() ); ?>"/>
-	<input type="hidden" name="blog" value="<?php echo esc_url( get_option( 'home' ) ); ?>"/>
-	<input type="hidden" name="redirect" value="<?php echo isset( $redirect ) ? $redirect : 'plugin-signup'; ?>"/>
-	<button type="submit" class="<?php echo esc_attr( $submit_classes_attr ); ?>" value="<?php echo esc_attr( $text ); ?>"><?php echo esc_attr( $text ) . '<span class="screen-reader-text">' . esc_html__( '(opens in a new tab)', 'akismet' ) . '</span>'; ?></button>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b120a352325ad32f59dcfb288a4e6dd4f5c640810c166ff0a7897d10c8781e9
+size 1017

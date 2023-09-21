@@ -1,12 +1,3 @@
-<?php
-/**
- * WordPress Upgrade Functions. Old file, must not be used. Include
- * wp-admin/includes/upgrade.php instead.
- *
- * @deprecated 2.5.0
- * @package WordPress
- * @subpackage Administration
- */
-
-_deprecated_file( basename( __FILE__ ), '2.5.0', 'wp-admin/includes/upgrade.php' );
-require_once ABSPATH . 'wp-admin/includes/upgrade.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:74a3a807acd39eb3be1cf6510714674df094058f6510d8e27f390cf1b87d49b4
+size 341
