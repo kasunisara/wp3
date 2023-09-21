@@ -1,29 +1,3 @@
-<?php
-namespace Simply_Static;
-
-/**
- * Class which handles cancelling tasks.
- */
-class Cancel_Task extends Task {
-
-	/**
-	 * Current task name.
-	 *
-	 * @var string
-	 */
-	protected static $task_name = 'cancel';
-
-	/**
-	 * Perform action to run on cancel task.
-	 *
-	 * @return bool
-	 */
-	public function perform() {
-		$this->save_status_message( __( 'Cancelling job', 'simply-static' ) );
-
-		$wrapup_task = new Wrapup_Task();
-		$wrapup_task->perform();
-
-		return true;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f00afc28f4b4c8c333cb37f1c1be7a0d6a32629d952430088833dba94dcfc7a
+size 470

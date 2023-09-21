@@ -1,24 +1,3 @@
-<?php
-/**
- * WP-Background Processing
- *
- * @package WP-Background-Processing
- */
-
-/*
-Plugin Name: WP Background Processing
-Plugin URI: https://github.com/deliciousbrains/wp-background-processing
-Description: Asynchronous requests and background processing in WordPress.
-Author: Delicious Brains Inc.
-Version: 1.0
-Author URI: https://deliciousbrains.com/
-GitHub Plugin URI: https://github.com/deliciousbrains/wp-background-processing
-GitHub Branch: master
-*/
-
-if ( ! class_exists( 'WP_Async_Request' ) ) {
-	require_once plugin_dir_path( __FILE__ ) . 'classes/wp-async-request.php';
-}
-if ( ! class_exists( 'WP_Background_Process' ) ) {
-	require_once plugin_dir_path( __FILE__ ) . 'classes/wp-background-process.php';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d16beb96f3c37395529d7072b2c1245f813a857a350dced0bb69c3a177c59399
+size 718

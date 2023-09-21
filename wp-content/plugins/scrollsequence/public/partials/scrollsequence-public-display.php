@@ -1,16 +1,3 @@
-<?php
-
-/**
- * Provide a public-facing view for the plugin
- *
- * This file is used to markup the public-facing aspects of the plugin.
- *
- * @link       www.scrollsequence.com
- * @since      0.7.0
- *
- * @package    Scrollsequence
- * @subpackage Scrollsequence/public/partials
- */
-?>
-
-<!-- This file should primarily consist of HTML with a little bit of PHP. -->
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc141502ebd8ed34a5747008a3bdc7be49c109e0f6cd965af177eca4b90d240a
+size 360

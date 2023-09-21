@@ -1,24 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\CssSelector\Exception;
-
-/**
- * ParseException is thrown when a CSS selector syntax is not valid.
- *
- * This component is a port of the Python cssselect library,
- * which is copyright Ian Bicking, @see https://github.com/SimonSapin/cssselect.
- *
- * @author Jean-François Simon <jeanfrancois.simon@sensiolabs.com>
- */
-class ExpressionErrorException extends ParseException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0712a06173e21dfe95b489340ce20f55ef690f84a1983a8cadc6a9b36970d4cd
+size 641

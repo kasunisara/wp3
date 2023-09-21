@@ -1,31 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\CssSelector\Node;
-
-/**
- * Interface for nodes.
- *
- * This component is a port of the Python cssselect library,
- * which is copyright Ian Bicking, @see https://github.com/SimonSapin/cssselect.
- *
- * @author Jean-François Simon <jeanfrancois.simon@sensiolabs.com>
- *
- * @internal
- */
-interface NodeInterface
-{
-    public function getNodeName(): string;
-
-    public function getSpecificity(): Specificity;
-
-    public function __toString(): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d04ba16abb99dd11643752719d063a2f19b1a577c73fa3a72f067758c32af0e9
+size 715

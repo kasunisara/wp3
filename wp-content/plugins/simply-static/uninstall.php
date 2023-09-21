@@ -1,19 +1,3 @@
-<?php
-/**
- * Uninstall Simply Static
- */
-
-// exit if accessed directly.
-if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
-	exit;
-}
-
-// Delete Simply Static's settings.
-delete_option( 'simply-static' );
-
-require_once plugin_dir_path( __FILE__ ) . 'src/class-ss-plugin.php';
-require_once plugin_dir_path( __FILE__ ) . 'src/models/class-ss-model.php';
-require_once plugin_dir_path( __FILE__ ) . 'src/models/class-ss-page.php';
-
-// Drop the Pages table
-Simply_Static\Page::drop_table();
+version https://git-lfs.github.com/spec/v1
+oid sha256:772787742f7d052fe76cde5682b85f00bb63aa10590d2eae57d2982d8b07670a
+size 477
