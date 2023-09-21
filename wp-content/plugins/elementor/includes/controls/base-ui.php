@@ -1,31 +1,3 @@
-<?php
-namespace Elementor;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-/**
- * Elementor base UI control.
- *
- * An abstract class for creating new UI controls in the panel.
- *
- * @abstract
- */
-abstract class Base_UI_Control extends Base_Control {
-
-	/**
-	 * Get features.
-	 *
-	 * Retrieve the list of all the available features.
-	 *
-	 * @since 1.5.0
-	 * @access public
-	 * @static
-	 *
-	 * @return array Features array.
-	 */
-	public static function get_features() {
-		return [ 'ui' ];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ab7cb59f7d6c7bc0e5e261f97ae38313d25656af62d8577ce12ff2a92b842c9
+size 516

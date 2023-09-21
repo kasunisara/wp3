@@ -1,18 +1,3 @@
-<?php
-namespace Elementor\Core\Upgrade;
-
-use Elementor\Tracker;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Custom_Tasks {
-	public static function opt_in_recalculate_usage( $updater ) {
-		return Upgrades::recalc_usage_data( $updater );
-	}
-
-	public static function opt_in_send_tracking_data() {
-		Tracker::send_tracking_data( true );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:be31ec4a760dfca474e0f3ea2247107987ea6486aa4cb848163e438c90efb927
+size 372

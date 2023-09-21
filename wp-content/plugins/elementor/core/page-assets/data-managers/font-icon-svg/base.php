@@ -1,21 +1,3 @@
-<?php
-namespace Elementor\Core\Page_Assets\Data_Managers\Font_Icon_Svg;
-
-use Elementor\Core\Page_Assets\Data_Managers\Base as Data_Managers_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-/**
- * Elementor Font Icon Svg Base.
- *
- * @since 3.4.0
- */
-class Base extends Data_Managers_Base {
-	protected $content_type = 'svg';
-
-	protected $assets_category = 'font-icon';
-
-	protected function get_asset_content() {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3df4515196e928cbeb5e914e916a593862c45520c292962a1eedf5bb00b02999
+size 443

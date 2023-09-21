@@ -1,14 +1,3 @@
-<?php
-namespace Elementor\Data\V2\Base\Exceptions;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class WP_Error_Exception extends Data_Exception {
-	public function __construct( \WP_Error $wp_error ) {
-		parent::__construct( $wp_error->get_error_message(), $wp_error->get_error_code(), [
-			'status' => $wp_error->get_error_code(),
-		] );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:793531a57581f09fd6e71a8a35253f8cfbadeeb6213ef97a98d18046d92d383b
+size 369

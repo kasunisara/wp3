@@ -1,15 +1,3 @@
-<?php
-namespace Elementor\Core\Logger\Items;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class PHP extends File {
-
-	const FORMAT = 'PHP: date [type X times][file::line] message [meta]';
-
-	public function get_name() {
-		return 'PHP';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b88a7f1f4700265b4ed96a92a213d2961bf4d9df80dd1d5429ea8abe10b7296c
+size 266

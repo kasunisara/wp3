@@ -1,26 +1,3 @@
-<?php
-
-namespace Elementor\Core\Upgrade;
-
-use Elementor\Core\Base\Background_Task;
-use Elementor\Core\Base\DB_Upgrades_Manager;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Task extends Background_Task {
-
-	/**
-	 * @var DB_Upgrades_Manager
-	 */
-	protected $manager;
-
-	protected function format_callback_log( $item ) {
-		return $this->manager->get_plugin_label() . '/Tasks - ' . $item['callback'][1];
-	}
-
-	public function set_limit( $limit ) {
-		$this->manager->set_query_limit( $limit );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2df6840b92a99edd602f1d510de3fcff11b91968ad5c29133abbf36e7602750
+size 525

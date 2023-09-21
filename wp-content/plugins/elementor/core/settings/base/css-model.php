@@ -1,21 +1,3 @@
-<?php
-
-namespace Elementor\Core\Settings\Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class CSS_Model extends Model {
-
-	/**
-	 * Get CSS wrapper selector.
-	 *
-	 * Retrieve the wrapper selector for the current panel.
-	 *
-	 * @since 1.6.0
-	 * @access public
-	 * @abstract
-	 */
-	abstract public function get_css_wrapper_selector();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:267e8db529235dbfbc350dca439925ec1a38bf79d01e85cbe4f52c6b81970936
+size 372

@@ -1,33 +1,3 @@
-<?php
-namespace Elementor\Data\V2\Base\Processor;
-
-use Elementor\Data\V2\Base\Processor;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class After extends Processor {
-
-	/**
-	 * Get conditions for running processor.
-	 *
-	 * @param array $args
-	 * @param mixed $result
-	 *
-	 * @return bool
-	 */
-	public function get_conditions( $args, $result ) {
-		return true;
-	}
-
-	/**
-	 * Apply processor.
-	 *
-	 * @param $args
-	 * @param $result
-	 *
-	 * @return mixed
-	 */
-	abstract public function apply( $args, $result );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8a513239552a589881570f4c4a83090005cf7531120d4f5f9ef4a03e2d55736
+size 545

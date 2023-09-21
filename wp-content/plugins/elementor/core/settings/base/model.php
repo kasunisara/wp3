@@ -1,31 +1,3 @@
-<?php
-namespace Elementor\Core\Settings\Base;
-
-use Elementor\Controls_Stack;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-/**
- * Elementor settings base model.
- *
- * Elementor settings base model handler class is responsible for registering
- * and managing Elementor settings base models.
- *
- * @since 1.6.0
- * @abstract
- */
-abstract class Model extends Controls_Stack {
-
-	/**
-	 * Get panel page settings.
-	 *
-	 * Retrieve the page setting for the current panel.
-	 *
-	 * @since 1.6.0
-	 * @access public
-	 * @abstract
-	 */
-	abstract public function get_panel_page_settings();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d3a37fec5731b6650ee768e77e5cf239f7b2362a04f7f4d22b548051378f50c
+size 605
