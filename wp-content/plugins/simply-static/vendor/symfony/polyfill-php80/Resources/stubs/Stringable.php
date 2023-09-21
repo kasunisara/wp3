@@ -1,20 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-if (\PHP_VERSION_ID < 80000) {
-    interface Stringable
-    {
-        /**
-         * @return string
-         */
-        public function __toString();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cb4ee568bc53f063ba4e1daf43c38a53abd8b5aac6850177e8c95d570b06145
+size 396

@@ -1,16 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-if (\PHP_VERSION_ID < 80000 && extension_loaded('tokenizer')) {
-    class PhpToken extends Symfony\Polyfill\Php80\PhpToken
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:62cf083e73550a887361c947e8a7d092c685cbc31a005d69d97e9a081e6d97d6
+size 375

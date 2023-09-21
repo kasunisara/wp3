@@ -1,17 +1,3 @@
-<?php
-
-class Normalizer extends Symfony\Polyfill\Intl\Normalizer\Normalizer
-{
-    /**
-     * @deprecated since ICU 56 and removed in PHP 8
-     */
-    public const NONE = 2;
-    public const FORM_D = 4;
-    public const FORM_KD = 8;
-    public const FORM_C = 16;
-    public const FORM_KC = 32;
-    public const NFD = 4;
-    public const NFKD = 8;
-    public const NFC = 16;
-    public const NFKC = 32;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f98e9fe75a0e2008e4e16ca369aa132a45408d4034b668e4afea9fcddca69964
+size 404
