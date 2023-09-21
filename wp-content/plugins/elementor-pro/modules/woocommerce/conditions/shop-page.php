@@ -1,31 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Woocommerce\Conditions;
-
-use ElementorPro\Modules\ThemeBuilder as ThemeBuilder;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Shop_Page extends ThemeBuilder\Conditions\Condition_Base {
-
-	public static function get_type() {
-		return 'singular';
-	}
-
-	public function get_name() {
-		return 'shop_page';
-	}
-
-	public static function get_priority() {
-		return 40;
-	}
-
-	public function get_label() {
-		return esc_html__( 'Shop Page', 'elementor-pro' );
-	}
-
-	public function check( $args ) {
-		return is_shop();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1404e0496bc78c234de4c5a6888259d2fae38fe45de5df9813f667c242239cb1
+size 578

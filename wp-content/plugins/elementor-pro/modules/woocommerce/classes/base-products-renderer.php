@@ -1,24 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Woocommerce\Classes;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class Base_Products_Renderer extends \WC_Shortcode_Products {
-
-	/**
-	 * Override original `get_content` that returns an HTML wrapper even if no results found.
-	 *
-	 * @return string Products HTML
-	 */
-	public function get_content() {
-		$result = $this->get_query_results();
-
-		if ( empty( $result->total ) ) {
-			return '';
-		}
-
-		return parent::get_content();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dba09cff9877af5400bdbf5d0dcfe1ee634226c2ce28ff8afa62891797877614
+size 505

@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Woocommerce\Tags;
-
-use ElementorPro\Modules\DynamicTags\Tags\Base\Data_Tag;
-use ElementorPro\Modules\Woocommerce\Module;
-use ElementorPro\Modules\Woocommerce\Tags\Traits\Tag_Product_Id;
-use ElementorPro\Modules\Woocommerce\Traits\Product_Id_Trait;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class Base_Data_Tag extends Data_Tag {
-
-	use Tag_Product_Id;
-	use Product_Id_Trait;
-
-	public function get_group() {
-		return Module::WOOCOMMERCE_GROUP;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:27d6b671b022a8018a1dfcf9495710a7eaf485ee34605f0500e6977b118523a3
+size 523

@@ -1,17 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeElements\Widgets;
-
-use ElementorPro\Base\Base_Widget;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class Base extends Base_Widget {
-
-	public function get_categories() {
-		return [ 'theme-elements' ];
-	}
-
-	public function render_plain_content() {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:50bdc076b1c1fed74065c76901acc7b93c58969f5cca796f51ccac0b6d03c616
+size 327

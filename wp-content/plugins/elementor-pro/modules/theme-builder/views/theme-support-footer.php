@@ -1,14 +1,3 @@
-<?php
-use ElementorPro\Modules\ThemeBuilder\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-$location_manager = Module::instance()->get_locations_manager();
-$location_manager->do_location( 'footer' ); ?>
-
-<?php wp_footer(); ?>
-
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:163534178434a069115f41c75ae1db003cef7c3a4d113718239c1fe609920de7
+size 277

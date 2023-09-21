@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\ThemeBuilder\Skins;
-
-use ElementorPro\Modules\Posts\Skins\Skin_Full_Content;
-use ElementorPro\Modules\Posts\Skins\Skin_Content_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Posts_Archive_Skin_Full_Content extends Skin_Full_Content {
-	use Skin_Content_Base;
-	use Posts_Archive_Skin_Base;
-
-	public function get_id() {
-		return 'archive_full_content';
-	}
-
-	/* Remove `posts_per_page` control */
-	protected function register_post_count_control(){}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6083c169990a82e5eb2087661eff2700a994a25e2698f9a4e07061eab5001c66
+size 521

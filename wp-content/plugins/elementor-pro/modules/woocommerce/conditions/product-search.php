@@ -1,32 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Woocommerce\Conditions;
-
-use ElementorPro\Modules\ThemeBuilder as ThemeBuilder;
-use ElementorPro\Modules\Woocommerce\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Product_Search extends ThemeBuilder\Conditions\Condition_Base {
-
-	public static function get_type() {
-		return 'archive';
-	}
-
-	public function get_name() {
-		return 'product_search';
-	}
-
-	public static function get_priority() {
-		return 40;
-	}
-
-	public function get_label() {
-		return esc_html__( 'Search Results', 'elementor-pro' );
-	}
-
-	public function check( $args ) {
-		return Module::is_product_search();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:716bb45c1a13e67823c390e707e518556466f76e0fad56948745e068e1510d48
+size 655

@@ -1,23 +1,3 @@
-<?php
-namespace ElementorPro\Modules\VideoPlaylist;
-
-use ElementorPro\Base\Module_Base;
-use Elementor\Core\Experiments\Manager;
-use ElementorPro\Plugin;
-
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Module extends Module_Base {
-	public function get_name() {
-		return 'video-playlist';
-	}
-
-	public function get_widgets() {
-		return [
-			'Video_Playlist',
-		];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cea550152b990f934518a102e5a615d002ffe59a426fa38a80ad63b5d7d2fa90
+size 398
