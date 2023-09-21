@@ -1,14 +1,3 @@
-<?php
-/**
- * Bird image
- *
- * This pattern is used only to reference a dynamic image URL.
- * It does not appear in the inserter.
- */
-return array(
-	'title'    => __( 'Heading and bird image', 'twentytwentytwo' ),
-	'inserter' => false,
-	'content'  => '<!-- wp:image {"align":"wide","sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image alignwide size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/flight-path-on-transparent-d.png" alt="' . esc_attr__( 'Illustration of a bird flying.', 'twentytwentytwo' ) . '"/></figure>
-					<!-- /wp:image -->',
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3806a4d00a3f8af98e0dc6bf6e6198941617c278eaecbd9c5c2560bad013aa2
+size 611

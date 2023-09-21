@@ -1,32 +1,3 @@
-<?php
-/**
- * Grid of posts block pattern
- */
-return array(
-	'title'      => __( 'Grid of posts', 'twentytwentytwo' ),
-	'categories' => array( 'query' ),
-	'blockTypes' => array( 'core/query' ),
-	'content'    => '<!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","perPage":12},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"inherit":true}} -->
-					<div class="wp-block-query alignwide"><!-- wp:post-template {"align":"wide"} -->
-					<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"318px"} /-->
-
-					<!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
-
-					<!-- wp:post-excerpt /-->
-
-					<!-- wp:post-date {"format":"F j, Y","isLink":true,"fontSize":"small"} /-->
-					<!-- /wp:post-template -->
-
-					<!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
-					<hr class="wp-block-separator alignwide is-style-wide"/>
-					<!-- /wp:separator -->
-
-					<!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
-					<!-- wp:query-pagination-previous {"fontSize":"small"} /-->
-
-					<!-- wp:query-pagination-numbers /-->
-
-					<!-- wp:query-pagination-next {"fontSize":"small"} /-->
-					<!-- /wp:query-pagination --></div>
-					<!-- /wp:query -->',
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a50fc3fd9a12f93d8b354f856bfe00df9a028918407d496fa851c078aca6cfb
+size 1390

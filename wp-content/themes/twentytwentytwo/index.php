@@ -1,5 +1,3 @@
-<?php
-// There is nothing output here because block themes do not use php templates.
-// There is a core ticket discussing removing this requirement for block themes:
-// https://core.trac.wordpress.org/ticket/54272.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a6fa1d72b77a129acbd286d60eab5d1e96ec33a3feb0236e5f15228f8a7691b
+size 216
