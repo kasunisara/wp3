@@ -1,29 +1,3 @@
-<?php
-namespace Elementor\Core\Common\Modules\Connect\Apps;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class Base_User_App extends Base_App {
-
-	/**
-	 * @since 2.3.0
-	 * @access protected
-	 */
-	protected function update_settings() {
-		update_user_option( get_current_user_id(), $this->get_option_name(), $this->data );
-	}
-
-	/**
-	 * @since 2.3.0
-	 * @access protected
-	 */
-	protected function init_data() {
-		$this->data = get_user_option( $this->get_option_name() );
-
-		if ( ! $this->data ) {
-			$this->data = [];
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:14476f6b7323c83e709e0c1ab5d1df2c1716981a66f829825b96147f2840f7fc
+size 560

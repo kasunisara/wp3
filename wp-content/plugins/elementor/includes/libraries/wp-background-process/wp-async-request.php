@@ -1,12 +1,3 @@
-<?php
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
-
-// TODO: _deprecated_file( __FILE__, '3.0.7', '\Elementor\Core\Base\BackgroundProcess\WP_Async_Request' );
-
-if ( ! class_exists( 'WP_Async_Request' ) ) {
-	abstract class WP_Async_Request extends \Elementor\Core\Base\BackgroundProcess\WP_Async_Request {
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4f1b0f84055e913acdb3dccd7299231180d95d11fb9c1816f97a61329b0cafb
+size 307

@@ -1,36 +1,3 @@
-<?php
-namespace Elementor\Core\Logger\Items;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class JS extends File {
-
-	const FORMAT = 'JS: date [type X times][file:line:column] message [meta]';
-
-	protected $column;
-
-	public function __construct( $args ) {
-		parent::__construct( $args );
-		$this->column = $args['column'];
-		$this->file = $args['url'];
-		$this->date = gmdate( 'Y-m-d H:i:s', $args['timestamp'] );
-	}
-
-	#[\ReturnTypeWillChange]
-	public function jsonSerialize() {
-		$json_arr = parent::jsonSerialize();
-		$json_arr['column'] = $this->column;
-		return $json_arr;
-	}
-
-	public function deserialize( $properties ) {
-		parent::deserialize( $properties );
-		$this->column = ! empty( $properties['column'] ) && is_string( $properties['column'] ) ? $properties['column'] : '';
-	}
-
-	public function get_name() {
-		return 'JS';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b01c31a8f7705ec707d392ef0d290d91847fcea90073b3d8cb08214c1a01b152
+size 862

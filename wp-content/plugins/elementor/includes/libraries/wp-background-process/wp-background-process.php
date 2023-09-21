@@ -1,12 +1,3 @@
-<?php
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
-
-// TODO: _deprecated_file( __FILE__, '3.0.7', '\Elementor\Core\Base\BackgroundProcess\WP_Background_Process' );
-
-if ( ! class_exists( 'WP_Background_Process' ) ) {
-	abstract class WP_Background_Process extends \Elementor\Core\Base\BackgroundProcess\WP_Background_Process {
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df36ed0b35f1d7b40c28a478854554d37dbea6a7a35271cfc8f88ecd75624dc2
+size 327
