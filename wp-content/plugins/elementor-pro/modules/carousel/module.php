@@ -1,23 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Carousel;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Media_Carousel',
-			'Testimonial_Carousel',
-			'Reviews',
-		];
-	}
-
-	public function get_name() {
-		return 'carousel';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:477e8178454608abdc41d1029eabe9366eb34d538fc0a4bb147de44ce613d773
+size 362

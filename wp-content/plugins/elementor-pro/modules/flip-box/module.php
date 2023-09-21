@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\FlipBox;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Flip_Box',
-		];
-	}
-
-	public function get_name() {
-		return 'flip-box';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:645b35209e4dc4ac46f0526b1d2d8567d7fb3da522c433dcfafd2b546bca06e0
+size 314

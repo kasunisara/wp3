@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Blockquote;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Blockquote',
-		];
-	}
-
-	public function get_name() {
-		return 'blockquote';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d859c132052b67038f20b8e8c662dd8e21069cad860d12f1cabd3d933e43f15d
+size 321

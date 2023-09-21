@@ -1,32 +1,3 @@
-<?php
-namespace ElementorPro\Modules\DynamicTags\Tags;
-
-use ElementorPro\Modules\DynamicTags\Tags\Base\Data_Tag;
-use ElementorPro\Modules\DynamicTags\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Comments_URL extends Data_Tag {
-
-	public function get_name() {
-		return 'comments-url';
-	}
-
-	public function get_title() {
-		return esc_html__( 'Comments URL', 'elementor-pro' );
-	}
-
-	public function get_group() {
-		return Module::COMMENTS_GROUP;
-	}
-
-	public function get_categories() {
-		return [ Module::URL_CATEGORY ];
-	}
-
-	public function get_value( array $options = [] ) {
-		return get_comments_link();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ed225a4d5ba72f2f8c74c9a291638261f1a47a59788c323f1ee32942bdc919e
+size 649

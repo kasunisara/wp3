@@ -1,34 +1,3 @@
-<?php
-namespace ElementorPro\Modules\DynamicTags\Tags;
-
-use ElementorPro\Modules\DynamicTags\Tags\Base\Tag;
-use ElementorPro\Modules\DynamicTags\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Post_ID extends Tag {
-	public function get_name() {
-		return 'post-id';
-	}
-
-	public function get_title() {
-		return esc_html__( 'Post ID', 'elementor-pro' );
-	}
-
-	public function get_group() {
-		return Module::POST_GROUP;
-	}
-
-	public function get_categories() {
-		return [
-			Module::TEXT_CATEGORY,
-			Module::NUMBER_CATEGORY,
-		];
-	}
-
-	public function render() {
-		echo get_the_ID();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4e9dfa2998a24a5899cb2c6d968b280db0fc837918bccb599b2dba15df4abe3
+size 621

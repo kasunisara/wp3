@@ -1,31 +1,3 @@
-<?php
-namespace ElementorPro\Modules\DynamicTags\ACF\Tags;
-
-use ElementorPro\Modules\DynamicTags\ACF\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class ACF_File extends ACF_Image {
-
-	public function get_name() {
-		return 'acf-file';
-	}
-
-	public function get_title() {
-		return esc_html__( 'ACF', 'elementor-pro' ) . ' ' . esc_html__( 'File Field', 'elementor-pro' );
-	}
-
-	public function get_categories() {
-		return [
-			Module::MEDIA_CATEGORY,
-		];
-	}
-
-	public function get_supported_fields() {
-		return [
-			'file',
-		];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:47b9ce7ff78519b7e589c307f60a8f4d3585aef5a42349f7293611749775d992
+size 563

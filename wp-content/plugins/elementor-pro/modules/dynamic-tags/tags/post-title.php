@@ -1,31 +1,3 @@
-<?php
-namespace ElementorPro\Modules\DynamicTags\Tags;
-
-use ElementorPro\Modules\DynamicTags\Tags\Base\Tag;
-use ElementorPro\Modules\DynamicTags\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Post_Title extends Tag {
-	public function get_name() {
-		return 'post-title';
-	}
-
-	public function get_title() {
-		return esc_html__( 'Post Title', 'elementor-pro' );
-	}
-
-	public function get_group() {
-		return Module::POST_GROUP;
-	}
-
-	public function get_categories() {
-		return [ Module::TEXT_CATEGORY ];
-	}
-
-	public function render() {
-		echo wp_kses_post( get_the_title() );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:016327ae973682f5365bd65e1e683a841b1f66afb1ab42abfb2c9bb1e5877011
+size 615

@@ -1,14 +1,3 @@
-<?php
-
-namespace ElementorPro\Modules\DynamicTags\Tags\Base;
-
-use Elementor\Core\DynamicTags\Data_Tag as Base_Data_Tag;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class Data_Tag extends Base_Data_Tag {
-
-	use Tag_Trait;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44f8b019d3021151e06513752371b4a0ad99a67336c14593697f7ae9f7ca57b1
+size 259

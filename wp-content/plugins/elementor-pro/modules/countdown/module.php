@@ -1,21 +1,3 @@
-<?php
-namespace ElementorPro\Modules\Countdown;
-
-use ElementorPro\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Countdown',
-		];
-	}
-
-	public function get_name() {
-		return 'countdown';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52098002fa94edd962c5149bd389af18daf1165f970349e85a819797fe49ea5f
+size 318

@@ -1,32 +1,3 @@
-<?php
-namespace ElementorPro\Modules\DynamicTags\Tags;
-
-use ElementorPro\Modules\DynamicTags\Tags\Base\Tag;
-use ElementorPro\Modules\DynamicTags\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Author_Name extends Tag {
-
-	public function get_name() {
-		return 'author-name';
-	}
-
-	public function get_title() {
-		return esc_html__( 'Author Name', 'elementor-pro' );
-	}
-
-	public function get_group() {
-		return Module::AUTHOR_GROUP;
-	}
-
-	public function get_categories() {
-		return [ Module::TEXT_CATEGORY ];
-	}
-
-	public function render() {
-		echo wp_kses_post( get_the_author() );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af02ba5308a88f96610a3fc0171f10937fe8bf449a2154e63063d03886815eb2
+size 622

@@ -1,16 +1,3 @@
-<?php
-
-namespace ElementorPro\Modules\DynamicTags\Tags\Base;
-
-use Elementor\Core\DynamicTags\Tag as Base_Tag;
-use ElementorPro\Base\On_Import_Trait;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-abstract class Tag extends Base_Tag {
-
-	use Tag_Trait;
-	use On_Import_Trait;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e45cf9b128b1fa1ed745dd58c823beb667c0f6a7020b89ac5c1a4908f6942527
+size 300

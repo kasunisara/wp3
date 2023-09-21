@@ -1,32 +1,3 @@
-<?php
-namespace ElementorPro\Modules\DynamicTags\Tags;
-
-use ElementorPro\Modules\DynamicTags\Tags\Base\Tag;
-use ElementorPro\Modules\DynamicTags\Module;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Archive_Description extends Tag {
-
-	public function get_name() {
-		return 'archive-description';
-	}
-
-	public function get_title() {
-		return esc_html__( 'Archive Description', 'elementor-pro' );
-	}
-
-	public function get_group() {
-		return Module::ARCHIVE_GROUP;
-	}
-
-	public function get_categories() {
-		return [ Module::TEXT_CATEGORY ];
-	}
-
-	public function render() {
-		echo wp_kses_post( get_the_archive_description() );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a271e5a27ef886e7f365b1383a00faf5bc8607c35594bedbb8c0c3a4f00a79b7
+size 660

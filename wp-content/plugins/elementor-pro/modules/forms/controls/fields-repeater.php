@@ -1,18 +1,3 @@
-<?php
-
-namespace ElementorPro\Modules\Forms\Controls;
-
-use Elementor\Control_Repeater;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Fields_Repeater extends Control_Repeater {
-
-	const CONTROL_TYPE = 'form-fields-repeater';
-
-	public function get_type() {
-		return self::CONTROL_TYPE;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c26a02bb4d244f6a9c5a280a58043726bda1ab3f4930be8024c6412151521273
+size 320
