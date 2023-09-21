@@ -1,32 +1,3 @@
-<?php return array(
-    'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'type' => 'library',
-        'install_path' => __DIR__ . '/../../',
-        'aliases' => array(),
-        'reference' => NULL,
-        'name' => '__root__',
-        'dev' => true,
-    ),
-    'versions' => array(
-        '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => NULL,
-            'dev_requirement' => false,
-        ),
-        'htmlburger/carbon-fields' => array(
-            'pretty_version' => 'v3.4.0-beta.2',
-            'version' => '3.4.0.0-beta2',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../htmlburger/carbon-fields',
-            'aliases' => array(),
-            'reference' => '99948c42ff5a2126a4d944bf7acd26bfc3fad07e',
-            'dev_requirement' => false,
-        ),
-    ),
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:24636b38e3c6162a07cee00e1db7cc7c1d5152d0b89696d29e1ba2671f238f8a
+size 1075

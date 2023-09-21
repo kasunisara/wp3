@@ -1,31 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition\Comparer;
-
-class Equality_Comparer extends Comparer {
-
-	/**
-	 * Supported comparison signs
-	 *
-	 * @var array<string>
-	 */
-	protected $supported_comparison_operators = array( '=', '!=' );
-
-	/**
-	 * Check if comparison is true for $a and $b
-	 *
-	 * @param mixed  $a
-	 * @param string $comparison_operator
-	 * @param mixed  $b
-	 * @return bool
-	 */
-	public function is_correct( $a, $comparison_operator, $b ) {
-		switch ( $comparison_operator ) {
-			case '=':
-				return $a == $b;
-			case '!=':
-				return $a != $b;
-		}
-		return false;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:890e907fe5ee274a5c1138776ca7f34e29ec5df43749d8a5bb54e7e3ddd06a70
+size 589

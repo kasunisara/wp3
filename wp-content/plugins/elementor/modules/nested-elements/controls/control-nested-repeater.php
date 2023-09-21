@@ -1,21 +1,3 @@
-<?php
-namespace Elementor\Modules\NestedElements\Controls;
-
-use Elementor\Control_Repeater;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-/**
- * Changing the default repeater control behavior for custom item title defaults.
- * For custom management of nested repeater controls.
- */
-class Control_Nested_Repeater extends Control_Repeater {
-
-	const CONTROL_TYPE = 'nested-elements-repeater';
-
-	public function get_type() {
-		return static::CONTROL_TYPE;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b851abad53931b20995c9431f28bdabb1239836fbfeec019b0b543798c470cb7
+size 483

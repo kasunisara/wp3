@@ -1,24 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if term is of a specific taxonomy
- */
-class Term_Taxonomy_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$taxonomy = $environment['taxonomy'];
-		return $this->compare(
-			$taxonomy,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:47e9e47efab689fc4fac648ed898aeadbd4d997d1274c1637e8fe2c4dcc81b15
+size 452

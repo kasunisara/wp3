@@ -1,16 +1,3 @@
-<?php
-
-namespace Carbon_Fields;
-
-/**
- * Block proxy factory class.
- * Used for shorter namespace access when creating a block.
- */
-class Block extends Container {
-	/**
-	 * {@inheritDoc}
-	 */
-	public static function make() {
-		return call_user_func_array( array( 'parent', 'make' ), array_merge( array( 'block' ), func_get_args() ) );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bf8d37b9cf9b9a19a47aec0f3d1a32ed28039497ba346594688108fec4d1170
+size 339

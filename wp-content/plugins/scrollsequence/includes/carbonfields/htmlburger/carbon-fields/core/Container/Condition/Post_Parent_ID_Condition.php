@@ -1,26 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if post has a specific parent
- */
-class Post_Parent_ID_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$post = $environment['post'];
-		$post_parent_id = is_object( $post ) ? intval( $post->post_parent ) : 0;
-
-		return $this->compare(
-			$post_parent_id,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cef2c901257f70cd3f6ebf34b66af62c43bd6902b35db8d27f80bfa1e02dc1b
+size 523

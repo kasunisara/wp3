@@ -1,30 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Datastore;
-
-use Carbon_Fields\Field\Field;
-
-/**
- * Empty datastore class.
- */
-class Empty_Datastore extends Datastore {
-	/**
-	 * {@inheritDoc}
-	 */
-	public function init() {}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function load( Field $field ) {}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function save( Field $field ) {}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function delete( Field $field ) {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c716a8baffde431dce2273052cf2088b13a848ed7087c4c335b82c573a9c49ff
+size 420

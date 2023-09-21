@@ -1,21 +1,3 @@
-<?php
-namespace Elementor\Modules\LandingPages\AdminMenuItems;
-
-use Elementor\Core\Admin\Menu\Interfaces\Admin_Menu_Item_With_Page;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class Landing_Pages_Empty_View_Menu_Item extends Landing_Pages_Menu_Item implements Admin_Menu_Item_With_Page {
-
-	private $render_callback;
-
-	public function __construct( callable $render_callback ) {
-		$this->render_callback = $render_callback;
-	}
-
-	public function render() {
-		( $this->render_callback )();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8959850a53048ad281fbe848d381ba34fa47e649d7f4144d4adb73c04f8fbab5
+size 520

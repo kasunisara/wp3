@@ -1,30 +1,3 @@
-<?php
-namespace Elementor\Modules\NestedTabs;
-
-use Elementor\Plugin;
-use Elementor\Modules\NestedElements\Module as NestedElementsModule;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends \Elementor\Core\Base\Module {
-
-	public static function is_active() {
-		return Plugin::$instance->experiments->is_feature_active( NestedElementsModule::EXPERIMENT_NAME );
-	}
-
-	public function get_name() {
-		return 'nested-tabs';
-	}
-
-	public function __construct() {
-		parent::__construct();
-
-		add_action( 'elementor/editor/before_enqueue_scripts', function () {
-			wp_enqueue_script( $this->get_name(), $this->get_js_assets_url( $this->get_name() ), [
-				'nested-elements',
-			], ELEMENTOR_VERSION, true );
-		} );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:09af6549544f5bd94939ee0517703efedb9df59d9a60044001d26253397103f5
+size 751

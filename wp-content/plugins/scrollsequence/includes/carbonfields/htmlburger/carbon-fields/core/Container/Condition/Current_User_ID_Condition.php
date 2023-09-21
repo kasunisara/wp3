@@ -1,24 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if the currently logged in user has a specific id
- */
-class Current_User_ID_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$user_id = get_current_user_id();
-		return $this->compare(
-			$user_id,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9795a56b9964e471a81aad4573c577127e0f1a099506ac5656093f19e9580e3
+size 465

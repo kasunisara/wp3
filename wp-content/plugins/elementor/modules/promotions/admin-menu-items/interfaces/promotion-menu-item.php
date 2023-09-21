@@ -1,21 +1,3 @@
-<?php
-
-namespace Elementor\Modules\Promotions\AdminMenuItems\Interfaces;
-
-use Elementor\Core\Admin\Menu\Interfaces\Admin_Menu_Item_With_Page;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-interface Promotion_Menu_Item extends Admin_Menu_Item_With_Page {
-	public function get_image_url();
-
-	public function get_promotion_title();
-
-	public function render_promotion_description();
-
-	public function get_cta_text();
-
-	public function get_cta_url();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e639ee9235fbcb6d0bf0644f3c90db136140f220896916f5d283f4465d633307
+size 474

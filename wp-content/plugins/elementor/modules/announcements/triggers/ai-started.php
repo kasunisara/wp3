@@ -1,28 +1,3 @@
-<?php
-
-namespace Elementor\Modules\Announcements\Triggers;
-
-use Elementor\Modules\Announcements\Classes\Trigger_Base;
-use Elementor\User;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-class AiStarted extends Trigger_Base {
-	/**
-	 * @var string
-	 */
-	protected $name = 'ai-get-started-announcement';
-
-	public function after_triggered() {
-		User::set_introduction_viewed( [ 'introductionKey' => $this->name ] );
-	}
-
-	/**
-	 * @return bool
-	 */
-	public function is_active(): bool {
-		return ! User::get_introduction_meta( 'ai_get_started' ) && ! User::get_introduction_meta( $this->name );
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c46f97df19b710b938763c8f5c178ac10fe5d064aef544899b1ae1918ed02844
+size 618

@@ -1,23 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Internal boolean (always true) condition
- */
-class Boolean_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		return $this->compare(
-			true,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:407c0a5428c7f18c424ba95f59ad428b619d9e3c24e7eb324161be2355d1c83c
+size 402

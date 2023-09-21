@@ -1,27 +1,3 @@
-<?php
-namespace Elementor\Modules\Styleguide\Controls;
-
-use Elementor\Control_Switcher;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Switcher extends Control_Switcher {
-
-	const CONTROL_TYPE = 'global-style-switcher';
-
-	/**
-	 * Get control type.
-	 *
-	 * Retrieve the control type, in this case `global-style-switcher`.
-	 *
-	 * @since 3.13.0
-	 * @access public
-	 *
-	 * @return string Control type.
-	 */
-	public function get_type() {
-		return self::CONTROL_TYPE;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a13c94a49ad386daf03d059f73f7159e40504a16c3b27f53e54cbaa271e0421c
+size 498

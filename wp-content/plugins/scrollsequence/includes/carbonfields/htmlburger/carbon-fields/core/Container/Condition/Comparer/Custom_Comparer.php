@@ -1,36 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition\Comparer;
-
-use Carbon_Fields\Exception\Incorrect_Syntax_Exception;
-
-class Custom_Comparer extends Comparer {
-
-	/**
-	 * Supported comparison signs
-	 *
-	 * @var array<string>
-	 */
-	protected $supported_comparison_operators = array( 'CUSTOM' );
-
-	/**
-	 * Check if comparison is true for $a and $b
-	 *
-	 * @param mixed  $a
-	 * @param string $comparison_operator
-	 * @param mixed  $b
-	 * @return bool
-	 */
-	public function is_correct( $a, $comparison_operator, $b ) {
-		if ( ! is_callable( $b ) ) {
-			Incorrect_Syntax_Exception::raise( 'Supplied comparison value is not a callable: ' . print_r( $b, true ) );
-			return false;
-		}
-
-		switch ( $comparison_operator ) {
-			case 'CUSTOM':
-				return (bool) $b( $a );
-		}
-		return false;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8992bb6b333d5cd3fc3427ce49a639579d9357f229f84b892c824bb1dcff9b6c
+size 784

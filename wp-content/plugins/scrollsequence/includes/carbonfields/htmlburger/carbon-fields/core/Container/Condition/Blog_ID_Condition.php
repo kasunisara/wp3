@@ -1,24 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if the current blog has a specific id
- */
-class Blog_ID_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$blog_id = get_current_blog_id();
-		return $this->compare(
-			$blog_id,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:999304eb2435a7cd1f57eb5bea17361d10fcfa1170ca4aa9751eaefe8ae67508
+size 445

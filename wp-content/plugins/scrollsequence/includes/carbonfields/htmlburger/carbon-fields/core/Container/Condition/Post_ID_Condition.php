@@ -1,24 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check for a specific post id
- */
-class Post_ID_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$post_id = $environment['post_id'];
-		return $this->compare(
-			$post_id,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d4276b685636e3b524c5ff83b717bed0c242da8759132a4244285313ef8e074
+size 432

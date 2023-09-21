@@ -1,24 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check is post is of specific type
- */
-class Post_Type_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$post_type = $environment['post_type'];
-		return $this->compare(
-			$post_type,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ceb93b42f4cc03d786f10fb4fb376733104c6a9e2f39930a0b22ab03bd8660c
+size 445

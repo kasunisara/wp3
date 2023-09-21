@@ -1,24 +1,3 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check for a specific user id
- */
-class User_ID_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$user_id = $environment['user_id'];
-		return $this->compare(
-			$user_id,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:76e591008522e3a43be34e5a97de2e12553926ab3274bfa6c47a09e5666db45f
+size 432
