@@ -5,3 +5,6 @@ wp-content/uploads/simply-static/temp-files/simply-static-1-1695300934/wp-conten
 *.css
 *.md
 *.json
+*.png
+*.js
+*.txt
